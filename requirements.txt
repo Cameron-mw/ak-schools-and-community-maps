@@ -3,3 +3,4 @@ pandas~=2.0
 geopandas~=0.12
 plotly-express~=0.4
 geojson~=3.0
+python-dotenv~=1.0
