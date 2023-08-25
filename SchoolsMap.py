@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 # Import CSV Data
 df = pd.read_csv('data/Schools.csv')
 schools = df['School'].unique()
+high_schools = df[df['GraduationRate'].notnull()]['School'].unique()
 
 # Mapbox Access Key
 load_dotenv()
@@ -48,6 +49,17 @@ app.layout = html.Div([
         multi=True
     ),
 
+    dcc.Dropdown(
+        id='HSsearch',
+        options=[{'label': school, 'value': school} for school in high_schools],
+        placeholder='— Filter by School —',
+        value=None,  # Set as Default Selection
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px'},
+        searchable=True,
+        multi=True
+    ),
+
     # Map layout
     dcc.Graph(id='map',
               style={'font-family': 'Optima'}),
@@ -65,6 +77,31 @@ app.layout = html.Div([
 ])
 
 @app.callback(
+   dash.dependencies.Output(component_id='search', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(school):
+    if school == 'Graduates' or school == 'GraduationRate':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px', 'display': 'none'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+
+@app.callback(
+   dash.dependencies.Output(component_id='HSsearch', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(school):
+    if school == 'Graduates' or school == 'GraduationRate':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'none'}
+
+
+@app.callback(
     # Map Output
     [dash.dependencies.Output('map', 'figure'),
     # Text Output
@@ -72,10 +109,11 @@ app.layout = html.Div([
      # Chart Output 1
      dash.dependencies.Output('chartA', 'figure')],
     [dash.dependencies.Input('category-dropdown', 'value'),
-     dash.dependencies.Input('search', 'value')]
+     dash.dependencies.Input('search', 'value'),
+     dash.dependencies.Input('HSsearch', 'value')]
 )
 
-def update_figure(selected_category, search):
+def update_figure(selected_category, search, HSsearch):
     # Paramaters for map showing all Schools
     global pie_names
     if selected_category == 'School':
@@ -152,10 +190,10 @@ def update_figure(selected_category, search):
         'according to the \"Enrollment Counts by School\" table.'
 
     elif selected_category == 'Graduates':
-        if search is None or len(search) == 0:
+        if HSsearch is None or len(HSsearch) == 0:
             filtered_df = df[df['GraduationRate'].notnull()]
         else:
-            dff = df[df['School'].isin(search)]
+            dff = df[df['School'].isin(HSsearch)]
             filtered_df = dff[dff['GraduationRate'].notnull()]
         #filtered_df = df[df['GraduationRate'].notnull()]
         map_style = 'dark'
@@ -171,10 +209,10 @@ def update_figure(selected_category, search):
         'This data was gathered from the \"High School Graduation Rate: Four Year\" and \"Teacher Counts by School\" tables.'
 
     elif selected_category == 'GraduationRate':
-        if search is None or len(search) == 0:
+        if HSsearch is None or len(HSsearch) == 0:
             filtered_df = df[df[selected_category].notnull()]
         else:
-            dff = df[df['School'].isin(search)]
+            dff = df[df['School'].isin(HSsearch)]
             filtered_df = dff[dff['GraduationRate'].notnull()]
         #filtered_df = df[df[selected_category].notnull()]
         map_style = 'dark'

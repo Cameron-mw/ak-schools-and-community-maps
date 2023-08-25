@@ -1,438 +1,437 @@
 Longitude,Latitude,Community,Incorporation_Type,Area_Type,Borough_Census_Area,Population_2021,Road_Connection,Subsistence_Use,Essential_Air_Service,Environmentally_Threatened
--151.83172437,59.3515619300001,Port Graham,CDP,Community,Kenai Peninsula Borough,160,No,Yes,No,Yes
--160.43731917,66.9742028200001,Kiana,2nd Class City,Community,Northwest Arctic Borough,433,No,Yes,No,Yes
--150.0512588,62.44980587,Chase,CDP,Community,Matanuska-Susitna Borough,19,No,No,No,No
--152.22281779,57.61797554,Chiniak,CDP,Place of Interest,Kodiak Island Borough,51,No,No,No,No
--153.88450386,59.7801887900001,Pile Bay,Locality,Place of Interest,Lake and Peninsula Borough,0,,No,No,No
--158.46307877,59.0393744300001,Dillingham,1st Class City,Community,Dillingham Census Area,2209,No,Yes,No,Yes
--165.40855986,64.49808969,Nome,1st Class City,Community,Nome Census Area,3524,No,Yes,No,Yes
--149.87993996,70.4975517300001,Oliktok,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
--150.92471164,70.34435668,Alpine,Locality,Place of interest,North Slope Borough,0,,No,No,No
--161.97262602,60.6943313400001,Napakiak,2nd Class City,Community,Bethel Census Area,361,No,Yes,No,Yes
--161.16487363,64.9306613100001,Koyuk,2nd Class City,Community,Nome Census Area,307,No,Yes,No,Yes
--141.010596,62.6221071900001,Alcan Border,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,39,Yes,Yes,No,No
--131.62990791,55.3211840600001,Pennock Island,Locality,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
--147.48814616,64.8923484100001,Steele Creek,CDP,Place of Interest,Fairbanks North Star Borough,6381,Yes,Yes,No,No
--149.315544,61.5875610000001,South Lakes,CDP,Place of Interest,Matanuska-Susitna Borough,5173,Yes,No,No,No
--154.89480018,59.72097095,Newhalen,2nd Class City,Community,Lake and Peninsula Borough,178,No,Yes,No,Yes
--151.09658113,59.7942847800001,Voznesenka Village,Locality,Community,Kenai Peninsula Borough,0,Yes,Yes,No,No
--163.15761839,59.8770966700001,Kwigillingok,Unincorporated CDP,Community,Bethel Census Area,380,No,Yes,No,Yes
--154.8575714,59.9678738700001,Nondalton,2nd Class City,Community,Lake and Peninsula Borough,129,No,Yes,No,Yes
--145.17379154,63.8871444900001,Deltana,Unincorporated CDP,Community,Southeast Fairbanks Census Area,2342,Yes,Yes,No,No
--151.14257545,60.4866414200001,Kalifornsky,CDP,Community,Kenai Peninsula Borough,8564,Yes,Yes,No,No
--148.3372,70.2553,Prudhoe Bay,CDP,Place of Interest,North Slope Borough,1293,Yes,Yes,No,No
--149.12804397,60.96775196,Girdwood,Locality,Place of Interest,Municipality of Anchorage,2438,Yes,No,No,No
--143.01178595,62.37195602,Nabesna,Unincorporated CDP,Place of Interest,Copper River Census Area,1,Yes,Yes,No,No
--163.55653659,63.0331139900001,Kotlik,2nd Class City,Community,Kusilvak Census Area,639,No,Yes,No,Yes
--144.94740603,61.7374181000001,Kenny Lake,Unincorporated CDP,Community,Copper River Census Area,299,Yes,Yes,No,No
--152.88103859,58.0041020100001,Aleneva,CDP,Place of Interest,Kodiak Island Borough,8,No,Yes,No,No
--141.2075972,64.7889396800001,Eagle,2nd Class City,Community,Southeast Fairbanks Census Area,76,Yes,Yes,No,Yes
--145.17965735,61.66126868,Tonsina,Unincorporated CDP,Place of Interest,Copper River Census Area,53,Yes,Yes,No,No
--159.14339251,55.91158561,Perryville,CDP,Community,Lake and Peninsula Borough,87,No,Yes,Yes,Yes
--152.50398554,57.9232638,Ouzinkie,2nd Class City,Community,Kodiak Island Borough,114,No,Yes,No,Yes
--145.8179463,66.2629693000001,Birch Creek,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,32,No,Yes,No,Yes
--164.44162838,64.5605626500001,Solomon,Unincorporated,Place of Interest,Nome Census Area,1,No,Yes,No,No
--150.1718169,65.5033866300001,Rampart,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,62,No,Yes,No,Yes
--151.06585198,60.4904472100001,Soldotna,Home Rule City,Community,Kenai Peninsula Borough,4449,Yes,No,No,No
--157.75696671,61.8887285700001,Georgetown,Unincorporated,Place of Interest,Bethel Census Area,1,No,Yes,No,No
--154.00163761,57.6368061800001,Uyak,Locality,Place of Interest,Kodiak Island Borough,1,No,No,No,No
--145.52778197,62.1126684500001,Glennallen,Unincorporated CDP,Community,Copper River Census Area,437,Yes,Yes,No,No
--135.37500524,59.1599890900001,Mud Bay,CDP,Place of Interest,Haines Borough,203,Yes,Yes,No,No
--147.41261495,64.80456701,Badger,CDP,Place of Interest,Fairbanks North Star Borough,19000,Yes,Yes,No,No
--161.92782082,65.9126150000001,Candle,Locality,Place of Interest,Northwest Arctic Borough,0,No,No,No,No
--145.6351157,60.5262940000001,Eyak,Unincorporated,Place of Interest,Chugach Census Area,131,No,Yes,No,No
--162.31126632,55.0595082400001,King Cove,1st Class City,Community,Aleutians East Borough,855,No,Yes,Yes,Yes
--146.11291342,62.09714581,Tolsona,Unincorporated CDP,Community,Copper River Census Area,29,Yes,Yes,No,No
--148.94092664,61.4971211500001,Knik River,CDP,Community,Matanuska-Susitna Borough,841,Yes,Yes,No,No
--142.10081923,67.14753403,Canyon Village,Unincorporated,Place of interest,Yukon-Koyukuk Census Area,0,,No,No,No
--143.6128541,70.1266124700001,Kaktovik,2nd Class City,Community,North Slope Borough,266,No,Yes,No,Yes
--145.49600069,63.0324502400001,Paxson,Unincorporated CDP,Community,Copper River Census Area,27,Yes,Yes,No,No
--166.36520237,65.2629568300001,Teller,2nd Class City,Community,Nome Census Area,250,No,Yes,No,Yes
--149.80142669,61.6312394,Houston,2nd Class City,Community,Matanuska-Susitna Borough,1989,Yes,No,No,No
--142.98776188,63.3358964400001,Tok,Unincorporated CDP,Community,Southeast Fairbanks Census Area,1263,Yes,Yes,No,No
--154.53419499,57.1975730600001,Ayakulik,Locality,Place of Interest,Kodiak Island Borough,0,No,No,No,No
--143.79758178,62.92939878,Mentasta Lake,Unincorporated CDP,Community,Copper River Census Area,118,Yes,Yes,No,No
--134.64699558,56.2492376800001,Port Alexander,2nd Class City,Community,Prince of Wales-Hyder Census Area,61,No,Yes,Yes,No
--161.86539037,61.5672487300001,Ohogamiut,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
--149.44702422,61.4123162400001,Peters Creek,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
--136.13227706,59.4280005000001,Klehini Valley,Locality,Community,Haines Borough,0,,No,No,No
--135.44221048,58.08906326,Whitestone Logging Camp,Unincorporated CDP,Place of Interest,Hoonah-Angoon Census Area,2,No,Yes,No,No
--148.54850048,65.5228139800001,Livengood,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,20,Yes,Yes,No,No
--158.76308415,56.25373123,Chignik Lake,CDP,Community,Lake and Peninsula Borough,63,No,Yes,Yes,Yes
--131.6373989,55.6028174200001,Loring,CDP,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
--149.11573078,64.0170859300001,Ferry,CDP,Place of Interest,Denali Borough,17,Yes,No,No,No
--163.00913774,69.7431228900001,Point Lay,CDP,Community,North Slope Borough,308,No,Yes,No,Yes
--151.61311471,59.81132569,Nikolaevsk,CDP,Community,Kenai Peninsula Borough,343,Yes,No,No,No
--151.45273429,59.66696928,Kachemak,2nd Class City,Community,Kenai Peninsula Borough,620,Yes,Yes,No,No
--133.08464582,55.5574327800001,Big Salt,Unincorporated,Community,Prince of Wales-Hyder Census Area,27,,No,No,No
--156.06195251,62.9879595200001,Takotna,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,56,No,Yes,No,Yes
--158.0075,62.4536000000001,Flat,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,0,No,Yes,No,No
--145.76017488,60.54406292,Cordova,Home Rule City,Community,Chugach Census Area,2545,No,Yes,Yes,No
--166.21260212,68.8801672700001,Cape Lisburne,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
--149.35258984,60.3576311800001,Primrose,CDP,Community,Kenai Peninsula Borough,89,Yes,Yes,No,No
--145.53740671,63.9822426900001,Gold Sand Acres,Unincorporated,Community,Southeast Fairbanks Census Area,69,,No,No,No
--162.71498738,55.2065679500001,Cold Bay,2nd Class City,Community,Aleutians East Borough,54,No,Yes,No,Yes
--152.31468697,63.88261006,Lake Minchumina,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,37,No,Yes,Yes,No
--145.41422234,62.0704106800001,Copperville,Unincorporated,Place of Interest,Copper River Census Area,0,Yes,Yes,No,No
--163.03671154,64.5423909500001,Golovin,2nd Class City,Community,Nome Census Area,178,No,Yes,No,Yes
--161.04682576,66.83334504,Noorvik,2nd Class City,Community,Northwest Arctic Borough,640,No,Yes,No,Yes
--156.76100969,71.2893977300001,Utqiagvik,1st Class City,Community,North Slope Borough,4877,No,Yes,No,Yes
--151.50578451,66.92462485,Evansville,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,12,No,Yes,No,No
--152.88344189,57.86662239,Port Lions,2nd Class City,Community,Kodiak Island Borough,170,No,Yes,Yes,Yes
--153.9814353,57.5370683300001,Larsen Bay,2nd Class City,Community,Kodiak Island Borough,33,No,Yes,No,No
--136.0314547,59.44650625,Mosquito Lake,CDP,Place of Interest,Haines Borough,294,Yes,Yes,No,No
--150.37835622,61.0350394000001,Point Possession,CDP,Place of Interest,Kenai Peninsula Borough,10,Yes,Yes,No,No
--133.57130446,56.1508274600001,Shakan Bay,Unincorporated,Place of Interest,Prince of Wales-Hyder Census Area,0,No,No,No,No
--132.40392924,55.5396225600001,Kasaan,2nd Class City,Community,Prince of Wales-Hyder Census Area,86,No,Yes,No,Yes
--161.23000172,60.90749213,Akiak,2nd Class City,Community,Bethel Census Area,479,No,Yes,No,Yes
--162.27641211,60.8572982700001,Atmautluak,Unincorporated CDP,Community,Bethel Census Area,370,No,Yes,No,Yes
--158.56082655,58.8159796400001,Ekuk,Unincorporated,Place of Interest,Dillingham Census Area,2,No,Yes,No,No
--157.399544,57.51228753,Ugashik,CDP,Place of Interest,Lake and Peninsula Borough,3,No,Yes,Yes,No
--147.72124822,64.83969225,Fairbanks,Home Rule City,Community,Fairbanks North Star Borough,33522,Yes,No,No,No
--151.50835587,66.92186904,Bettles,2nd Class City,Community,Yukon-Koyukuk Census Area,22,No,Yes,No,No
--132.97770415,56.81669536,Kupreanof,2nd Class City,Community,Petersburg Borough,23,No,Yes,No,No
--144.06674913,65.8266465400001,Circle,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,76,Yes,Yes,Yes,Yes
--154.25821908,66.0458727800001,Hughes,2nd Class City,Community,Yukon-Koyukuk Census Area,84,No,Yes,No,Yes
 -176.64029588,51.86824598,Adak,2nd Class City,Community,Aleutians West Census Area,179,No,Yes,Yes,Yes
--149.60355194,61.62425754,Meadow Lakes,CDP,Community,Matanuska-Susitna Borough,9485,Yes,No,No,No
--158.62162503,59.2792073700001,Aleknagik,2nd Class City,Community,Dillingham Census Area,238,No,Yes,No,Yes
--136.22974756,57.9606687,Pelican,1st Class City,Community,Hoonah-Angoon Census Area,92,No,Yes,Yes,No
--151.22378748,59.5976979500001,Halibut Cove,CDP,Place of Interest,Kenai Peninsula Borough,64,No,No,No,No
--135.22829141,57.7810313900001,Tenakee Springs,2nd Class City,Community,Hoonah-Angoon Census Area,122,No,Yes,No,No
--167.89553765,53.38509408,Fort Glenn,Unincorporated,Place of Interest,Aleutians West Census Area,0,No,No,No,No
--164.52984686,62.7769473800001,Emmonak,2nd Class City,Community,Kusilvak Census Area,861,No,Yes,No,Yes
--151.08274455,59.8127242100001,Razdolna Village,Locality,Community,Kenai Peninsula Borough,0,,No,No,No
--155.43702258,61.3553888800001,Lime Village,Unincorporated CDP,Community,Bethel Census Area,5,No,Yes,No,Yes
--165.2513918,60.5861689800001,Tununak,Unincorporated CDP,Community,Bethel Census Area,396,No,Yes,No,Yes
--135.3611485,59.48035687,Dyea,Locality,Community,Municipality of Skagway,0,Yes,No,No,No
--154.37521598,63.01373203,Nikolai,2nd Class City,Community,Yukon-Koyukuk Census Area,92,No,Yes,No,Yes
--148.91686675,63.7323200700001,Denali Park,CDP,Community,Denali Borough,160,Yes,No,No,No
--149.82408258,61.0848208400001,Rabbit Creek,Locality,Place of Interest,Municipality of Anchorage,4166,Yes,No,No,No
--170.28122427,63.43491341,Saint Lawrence Island,Unincorporated,Place of Interest,Nome Census Area,0,,Yes,No,No
--157.47804697,59.3502442700001,Ekwok,2nd Class City,Community,Dillingham Census Area,103,No,Yes,Yes,Yes
--160.5064,55.1828,Unga,Locality,Place of Interest,Aleutians East Borough,0,No,Yes,No,No
--132.25626082,55.7392589,Meyers Chuck,Locality,Place of Interest,City and Borough of Wrangell,0,No,No,No,No
--162.69971497,54.4558662600001,Pauloff Harbor,Locality,Place of Interest,Aleutians East Borough,0,No,Yes,No,No
--163.6763889,64.895,Council,Unincorporated,Place of Interest,Nome Census Area,2,No,Yes,No,No
--135.73906162,58.4133428700001,Gustavus,2nd Class City,Community,Hoonah-Angoon Census Area,658,No,Yes,Yes,No
--142.92370024,61.43287967,McCarthy,Unincorporated CDP,Community,Copper River Census Area,109,Yes,Yes,Yes,No
--147.39714881,66.3603484600001,Beaver,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,56,No,Yes,No,Yes
--130.02551423,55.9157523000001,Hyder,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,42,Yes,Yes,No,No
--157.33465586,61.7822606500001,Red Devil,Unincorporated CDP,Community,Bethel Census Area,23,No,Yes,No,No
--163.41049001,64.68127766,White Mountain,2nd Class City,Community,Nome Census Area,189,No,Yes,No,Yes
--149.89484742,61.21627757,Anchorage,Unified Home Rule Borough,Community,Municipality of Anchorage,289697,Yes,No,No,No
--131.64802329,55.3424333300001,Ketchikan,Home Rule City,Community,Ketchikan Gateway Borough,8149,No,No,No,No
--158.10581652,61.8704253700001,Crooked Creek,Unincorporated CDP,Community,Bethel Census Area,88,No,Yes,No,Yes
--154.09956667,59.78824382,Pedro Bay,CDP,Community,Lake and Peninsula Borough,40,No,Yes,No,Yes
--163.19113404,62.0472013200001,Andreafsky,Unincorporated,Place of Interest,Kusilvak Census Area,101,No,Yes,No,No
--159.05492998,58.97954187,Manokotak,2nd Class City,Community,Dillingham Census Area,477,No,Yes,Yes,Yes
--149.08786612,61.54831755,Circle View Stampede,Locality,Place of Interest,Matanuska-Susitna Borough,0,Yes,No,No,No
--134.67008238,58.3701947600001,Auke Bay,Locality,Place of Interest,City and Borough of Juneau,5259,No,No,No,No
--162.08816948,61.8814414300001,Marshall,2nd Class City,Community,Kusilvak Census Area,468,No,Yes,No,Yes
--149.80840696,60.4948727600001,Cooper Landing,CDP,Community,Kenai Peninsula Borough,363,Yes,No,No,No
--151.4435797,59.6659190400001,Millers Landing,Locality,Place of Interest,Kenai Peninsula Borough,0,,No,No,No
--160.06572812,62.9064389100001,Grayling,2nd Class City,Community,Yukon-Koyukuk Census Area,210,No,Yes,No,Yes
--162.03991035,63.47835158,Saint Michael,2nd Class City,Community,Nome Census Area,450,No,Yes,No,Yes
--152.82914949,58.08155665,Litnik,Locality,Place of Interest,Kodiak Island Borough,0,,No,No,No
--151.3334305,60.61773773,Salamatof,CDP,Community,Kenai Peninsula Borough,1060,Yes,Yes,No,No
--149.5351971,61.36992924,Chugiak,Locality,Place of Interest,Municipality of Anchorage,5236,Yes,No,No,No
--149.81915873,61.5522787300001,Big Lake,CDP,Community,Matanuska-Susitna Borough,3946,Yes,No,No,No
--156.39470172,65.70183545,Huslia,2nd Class City,Community,Yukon-Koyukuk Census Area,301,No,Yes,No,Yes
--135.98980801,59.3937181100001,Covenant Life,CDP,Place of Interest,Haines Borough,73,Yes,Yes,No,No
--133.62121059,56.3513641000001,Point Baker,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,10,No,Yes,No,No
--147.15053014,64.70862307,Moose Creek,CDP,Community,Fairbanks North Star Borough,526,Yes,No,No,No
--156.66764668,58.6813712700001,King Salmon,CDP,Community,Bristol Bay Borough,297,No,Yes,No,No
--151.20133552,61.9677230600001,Skwentna,CDP,Place of Interest,Matanuska-Susitna Borough,60,No,Yes,No,No
--152.13983366,69.37131343,Umiat,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
--162.98850003,67.5718168000001,Noatak,CDP,Community,Northwest Arctic Borough,533,No,Yes,No,Yes
--132.82826284,56.0140424900001,Coffman Cove,2nd Class City,Community,Prince of Wales-Hyder Census Area,187,No,Yes,No,No
--152.39748118,57.7930013600001,Kodiak,Home Rule City,Community,Kodiak Island Borough,5495,No,No,No,No
--158.09565052,62.54422249,Iditarod,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
--157.85652784,67.0864707800001,Ambler,2nd Class City,Community,Northwest Arctic Borough,255,No,Yes,No,Yes
--139.75003244,59.5587609,Yakutat,Non-Unified Home Rule Borough,Community,City and Borough of Yakutat,697,No,Yes,Yes,Yes
--162.45740501,60.8972172800001,Nunapitchuk,2nd Class City,Community,Bethel Census Area,567,No,Yes,No,Yes
--166.53768178,53.8730924600001,Unalaska,1st Class City,Community,Aleutians West Census Area,4195,No,Yes,No,No
--157.37575053,58.2090702300001,Egegik,2nd Class City,Community,Lake and Peninsula Borough,39,No,Yes,Yes,Yes
--145.4120642,62.0473811800001,Tazlina,Unincorporated CDP,Community,Copper River Census Area,248,Yes,Yes,No,Yes
--160.79196516,63.87663037,Unalakleet,2nd Class City,Community,Nome Census Area,734,No,Yes,No,Yes
--147.75923942,64.81107438,South Van Horn,CDP,Place of Interest,Fairbanks North Star Borough,512,Yes,Yes,No,No
--135.44314779,58.41682002,Excursion Inlet,CDP,Place of Interest,Haines Borough,25,No,Yes,Yes,No
--147.35149648,64.7549026500001,North Pole,Home Rule City,Community,Fairbanks North Star Borough,2174,Yes,No,No,No
--165.84116537,61.69961533,Paimiut,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
--145.83455566,64.1472131900001,Big Delta,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,438,Yes,No,No,No
--153.2794001,63.38388646,Telida,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,3,No,Yes,No,No
--159.53059767,62.6553703500001,Shageluk,2nd Class City,Community,Yukon-Koyukuk Census Area,100,No,Yes,No,Yes
--163.72627562,62.08954141,Mountain Village,2nd Class City,Community,Kusilvak Census Area,602,No,Yes,No,Yes
--146.35508078,61.13023788,Valdez,Home Rule City,Community,Chugach Census Area,3971,Yes,No,No,No
--158.73284409,61.53637174,Napaimute,Unincorporated,Place of Interest,Bethel Census Area,0,No,Yes,No,No
--157.4235473,70.48213652,Atqasuk,2nd Class City,Community,North Slope Borough,289,No,Yes,No,Yes
--163.28701943,62.0318125700001,Pitkas Point,Unincorporated CDP,Community,Kusilvak Census Area,124,No,Yes,No,Yes
--146.68172131,60.86848502,Tatitlek,Unincorporated CDP,Community,Chugach Census Area,81,No,Yes,Yes,Yes
+-176.64029588,51.86824598,Adak Station,Unincorporated,Place of Interest,Aleutians West Census Area,0,No,No,No,No
+-152.77029002,58.0069396100001,Afognak,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
+-154.17324554,56.9468146400001,Akhiok,2nd Class City,Community,Kodiak Island Borough,58,No,Yes,Yes,Yes
+-161.44909474,60.91380831,Akiachak,Unincorporated CDP,Community,Bethel Census Area,660,No,Yes,No,Yes
+-161.23000172,60.90749213,Akiak,2nd Class City,Community,Bethel Census Area,479,No,Yes,No,Yes
 -165.77353925,54.13431811,Akutan,2nd Class City,Community,Aleutians East Borough,1588,No,Yes,Yes,Yes
--166.38705327,60.1016582,Nunivak Island,Unincorporated,Place of Interest,Bethel Census Area,0,,No,No,No
--162.03122768,55.08749807,Belkofski,Locality,Place of Interest,Aleutians East Borough,2,No,Yes,No,No
--132.6500231,55.4822323000001,Hollis,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,138,No,Yes,No,No
--133.09603454,55.55450419,Klawock,1st Class City,Community,Prince of Wales-Hyder Census Area,709,No,Yes,No,Yes
--149.54650955,61.3151319900001,Eagle River,Locality,Place of Interest,Municipality of Anchorage,6425,Yes,Yes,No,No
--149.34826008,65.1521483400001,Minto,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,156,Yes,Yes,Yes,Yes
--162.59298933,66.8966754200001,Kotzebue,2nd Class City,Community,Northwest Arctic Borough,3004,No,Yes,No,Yes
--150.04359382,62.1312135000001,Susitna North,CDP,Place of Interest,Matanuska-Susitna Borough,1598,Yes,Yes,No,No
--144.05888081,63.65794205,Dot Lake,Unincorporated CDP,Community,Southeast Fairbanks Census Area,16,Yes,Yes,No,No
--142.51969925,63.13803253,Tetlin,Unincorporated CDP,Community,Southeast Fairbanks Census Area,133,Yes,Yes,No,Yes
--151.25684667,60.3249378400001,Kasilof,CDP,Community,Kenai Peninsula Borough,519,Yes,No,No,No
--152.35739943,57.7792462300001,Woody Island,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
--147.96915819,64.8258662200001,Chena Ridge,CDP,Place of Interest,Fairbanks North Star Borough,6014,Yes,Yes,No,No
--147.03838828,64.8772855300001,Two Rivers,CDP,Community,Fairbanks North Star Borough,667,Yes,No,No,No
--144.66418745,62.5663622600001,Chistochina,Unincorporated CDP,Community,Copper River Census Area,59,Yes,Yes,No,Yes
--158.53776105,56.31042481,Chignik Lagoon,CDP,Community,Lake and Peninsula Borough,72,No,Yes,No,Yes
--162.88313585,61.9372025100001,Pilot Station,2nd Class City,Community,Kusilvak Census Area,609,No,Yes,No,Yes
--174.20019881,52.1978076400001,Atka,2nd Class City,Community,Aleutians West Census Area,59,No,Yes,Yes,Yes
--149.62083067,61.51685582,Knik-Fairview,CDP,Community,Matanuska-Susitna Borough,19476,Yes,Yes,No,No
--152.64948048,66.56004842,Allakaket,2nd Class City,Community,Yukon-Koyukuk Census Area,167,No,Yes,No,Yes
--162.51946956,60.89457329,Kasigluk,Unincorporated CDP,Community,Bethel Census Area,613,No,Yes,No,Yes
--147.1680556,61.9386111000001,Eureka Roadhouse,CDP,Place of Interest,Matanuska-Susitna Borough,22,Yes,Yes,No,No
--160.03223052,70.63853949,Wainwright,2nd Class City,Community,North Slope Borough,638,No,Yes,No,Yes
--162.2914977,63.52380972,Stebbins,2nd Class City,Community,Nome Census Area,622,No,Yes,No,Yes
--161.81475033,59.00848275,Platinum,2nd Class City,Community,Bethel Census Area,59,No,Yes,No,Yes
--158.54797691,58.8345343,Clark's Point,2nd Class City,Community,Dillingham Census Area,75,No,Yes,Yes,Yes
--149.19078163,64.34335795,Anderson,2nd Class City,Community,Denali Borough,227,Yes,Yes,No,No
--157.00692435,58.71326678,South Naknek,CDP,Community,Bristol Bay Borough,61,No,Yes,Yes,Yes
--152.5037,57.7381,Kodiak Station,CDP,Place of Interest,Kodiak Island Borough,1590,No,No,No,No
--133.9447988,56.9744498800001,Kake,1st Class City,Community,Prince of Wales-Hyder Census Area,557,No,Yes,Yes,Yes
--147.8028,64.8569000000001,College,CDP,Place of Interest,Fairbanks North Star Borough,11622,Yes,Yes,No,No
--169.54528,56.6014257,Saint George,2nd Class City,Community,Aleutians West Census Area,68,No,Yes,No,Yes
--134.40663973,58.2998397100001,Juneau,Unified Home Rule Borough,Community,City and Borough of Juneau,32155,No,No,No,No
--151.45404303,59.67334192,Ptarmigan Heights,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
--134.58084625,57.4995695000001,Angoon,2nd Class City,Community,Hoonah-Angoon Census Area,360,No,Yes,Yes,Yes
--149.36954724,60.41930962,Crown Point,CDP,Community,Kenai Peninsula Borough,125,Yes,Yes,No,No
--147.87946723,64.9273104000001,Goldstream,CDP,Community,Fairbanks North Star Borough,3321,Yes,Yes,No,No
--149.49656774,61.40880422,Birchwood,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
--159.77182893,62.1984422,Holy Cross,2nd Class City,Community,Yukon-Koyukuk Census Area,158,No,Yes,No,Yes
--168.86018348,52.9401089500001,Nikolski,Unincorporated CDP,Community,Aleutians West Census Area,42,No,Yes,Yes,Yes
--145.53554078,68.12846168,Arctic Village,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,139,No,Yes,No,Yes
--149.72257084,61.4620867300001,Knik,Locality,Place of Interest,Matanuska-Susitna Borough,0,Yes,No,No,No
--141.93417861,62.9617709300001,Northway,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,234,Yes,Yes,No,No
--131.53473777,55.2971708800001,Mountain Point,Locality,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
--133.34780625,57.46425365,Hobart Bay,CDP,Place of Interest,Petersburg Borough,1,No,Yes,No,No
--151.40223941,60.2264313800001,Clam Gulch,CDP,Community,Kenai Peninsula Borough,202,Yes,No,No,No
--150.5990608,61.4142118500001,Alexander Creek,Locality,Place of Interest,Matanuska-Susitna Borough,0,No,No,No,No
--157.31128856,59.4515508600001,New Stuyahok,2nd Class City,Community,Dillingham Census Area,480,No,Yes,Yes,Yes
--154.43668249,57.56248915,Karluk,CDP,Community,Kodiak Island Borough,27,No,Yes,No,Yes
--170.28228831,57.1203994800001,Saint Paul,2nd Class City,Community,Aleutians West Census Area,391,No,Yes,No,Yes
--152.65179399,66.539456,New Allakaket,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,0,No,Yes,No,No
--166.1928612,60.38649408,Mekoryuk,2nd Class City,Community,Bethel Census Area,195,No,Yes,No,Yes
--158.10535466,64.7234193800001,Nulato,2nd Class City,Community,Yukon-Koyukuk Census Area,223,No,Yes,No,Yes
--132.52282231,55.6854862600001,Thorne Bay,2nd Class City,Community,Prince of Wales-Hyder Census Area,456,No,Yes,No,No
--149.4411111,60.0725,Lowell Point,CDP,Community,Kenai Peninsula Borough,89,Yes,Yes,No,No
+-164.66754759,62.6869771400001,Alakanuk,2nd Class City,Community,Kusilvak Census Area,737,No,Yes,No,Yes
 -152.70131499,66.55452803,Alatna,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,17,No,Yes,No,Yes
--151.24880589,60.5590139000001,Kenai,Home Rule City,Community,Kenai Peninsula Borough,7380,Yes,No,No,No
--155.54739837,64.09977795,Poorman,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
--160.49809006,55.34090243,Sand Point,1st Class City,Community,Aleutians East Borough,648,No,Yes,No,Yes
--132.3836088,56.470404,Wrangell,Unified Home Rule Borough,Community,City and Borough of Wrangell,2096,No,Yes,Yes,No
--162.72884219,66.07667336,Deering,2nd Class City,Community,Northwest Arctic Borough,190,No,Yes,No,Yes
--151.29692559,60.7345972300001,Nikiski,CDP,Community,Kenai Peninsula Borough,4443,Yes,No,No,No
--165.59052769,61.5286181800001,Chevak,2nd Class City,Community,Kusilvak Census Area,939,No,Yes,No,Yes
--162.02949727,60.2189059200001,Eek,2nd Class City,Community,Bethel Census Area,408,No,Yes,No,Yes
--157.01991376,58.72821587,Naknek,CDP,Community,Bristol Bay Borough,464,No,Yes,No,No
--160.31576292,61.5381853700001,Upper Kalskag,2nd Class City,Community,Bethel Census Area,203,No,Yes,No,Yes
--155.58835315,62.9501408500001,McGrath,2nd Class City,Community,Yukon-Koyukuk Census Area,274,No,Yes,No,Yes
--160.36440167,61.5123629700001,Lower Kalskag,2nd Class City,Community,Bethel Census Area,262,No,Yes,No,Yes
--148.84811376,63.85383025,Suntrana,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
-174.1121,52.7246000000001,Eareckson Station,Unincorporated,Place of Interest,Aleutians West Census Area,232,No,No,No,No
--148.05533185,64.8793417300001,Ester Dome,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
--149.09074136,64.56270921,Nenana,Home Rule City,Community,Yukon-Koyukuk Census Area,358,Yes,Yes,No,Yes
--150.0108417,61.3551864900001,Point MacKenzie,CDP,Community,Matanuska-Susitna Borough,2087,Yes,Yes,No,No
--164.17930051,62.9450601400001,Chuloonawick,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-141.010596,62.6221071900001,Alcan Border,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,39,Yes,Yes,No,No
+-158.62162503,59.2792073700001,Aleknagik,2nd Class City,Community,Dillingham Census Area,238,No,Yes,No,Yes
+-152.88103859,58.0041020100001,Aleneva,CDP,Place of Interest,Kodiak Island Borough,8,No,Yes,No,No
+-150.5990608,61.4142118500001,Alexander Creek,Locality,Place of Interest,Matanuska-Susitna Borough,0,No,No,No,No
+-152.64948048,66.56004842,Allakaket,2nd Class City,Community,Yukon-Koyukuk Census Area,167,No,Yes,No,Yes
+-150.92471164,70.34435668,Alpine,Locality,Place of interest,North Slope Borough,0,No,No,No,No
+-157.85652784,67.0864707800001,Ambler,2nd Class City,Community,Northwest Arctic Borough,255,No,Yes,No,Yes
+-151.73586607,68.1418507700001,Anaktuvuk Pass,2nd Class City,Community,North Slope Borough,410,No,Yes,No,Yes
+-151.83401493,59.7764369000001,Anchor Point,CDP,Community,Kenai Peninsula Borough,2148,Yes,No,No,No
+-149.89484742,61.21627757,Anchorage,Unified Home Rule Borough,Community,Municipality of Anchorage,289697,Yes,No,No,No
+-149.19078163,64.34335795,Anderson,2nd Class City,Community,Denali Borough,227,Yes,Yes,No,No
+-163.19113404,62.0472013200001,Andreafsky,Unincorporated,Place of Interest,Kusilvak Census Area,101,No,Yes,No,No
+-134.58084625,57.4995695000001,Angoon,2nd Class City,Community,Hoonah-Angoon Census Area,360,No,Yes,Yes,Yes
+-159.52759488,61.5787638800001,Aniak,2nd Class City,Community,Bethel Census Area,494,No,Yes,No,Yes
+-160.1993288,62.65252995,Anvik,2nd Class City,Community,Yukon-Koyukuk Census Area,61,No,Yes,No,Yes
+-145.53554078,68.12846168,Arctic Village,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,139,No,Yes,No,Yes
+-174.20019881,52.1978076400001,Atka,2nd Class City,Community,Aleutians West Census Area,59,No,Yes,Yes,Yes
+-162.27641211,60.8572982700001,Atmautluak,Unincorporated CDP,Community,Bethel Census Area,370,No,Yes,No,Yes
+-157.4235473,70.48213652,Atqasuk,2nd Class City,Community,North Slope Borough,289,No,Yes,No,Yes
+173.17080016,52.82597479,Attu Station,Unincorporated CDP,Place of Interest,Aleutians West Census Area,0,No,Yes,No,No
+-134.67008238,58.3701947600001,Auke Bay,Locality,Place of Interest,City and Borough of Juneau,5259,No,No,No,No
+-154.53419499,57.1975730600001,Ayakulik,Locality,Place of Interest,Kodiak Island Borough,0,No,No,No,No
+-147.41261495,64.80456701,Badger,CDP,Place of Interest,Fairbanks North Star Borough,19000,Yes,Yes,No,No
+-149.40230311,60.1685445700001,Bear Creek,CDP,Community,Kenai Peninsula Borough,2067,Yes,Yes,No,No
+-147.39714881,66.3603484600001,Beaver,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,56,No,Yes,No,Yes
+-162.03122768,55.08749807,Belkofski,Locality,Place of Interest,Aleutians East Borough,2,No,Yes,No,No
+-151.04303622,61.1721485100001,Beluga,CDP,Place of Interest,Kenai Peninsula Borough,35,No,Yes,No,No
+-161.77177087,60.7911992000001,Bethel,2nd Class City,Community,Bethel Census Area,6362,No,No,No,Yes
+-151.50835587,66.92186904,Bettles,2nd Class City,Community,Yukon-Koyukuk Census Area,22,No,Yes,No,No
+-145.83455566,64.1472131900001,Big Delta,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,438,Yes,No,No,No
+-149.81915873,61.5522787300001,Big Lake,CDP,Community,Matanuska-Susitna Borough,3946,Yes,No,No,No
+-133.08464582,55.5574327800001,Big Salt,Unincorporated,Community,Prince of Wales-Hyder Census Area,27,No,No,No,No
+-163.77834136,62.9503685000001,Bill Moore's Slough,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-145.8179463,66.2629693000001,Birch Creek,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,32,No,Yes,No,Yes
+-149.49656774,61.40880422,Birchwood,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
+-166.4922015,65.3344880500001,Brevig Mission,2nd Class City,Community,Nome Census Area,414,No,Yes,No,Yes
+-161.12902024,65.9776538400001,Buckland,2nd Class City,Community,Northwest Arctic Borough,573,No,Yes,No,Yes
+-149.01110337,61.69132433,Buffalo Soapstone,CDP,Community,Matanuska-Susitna Borough,1042,Yes,Yes,No,No
+-149.03543549,61.54162777,Butte,CDP,Community,Matanuska-Susitna Borough,3545,Yes,No,No,No
+-161.92782082,65.9126150000001,Candle,Locality,Place of Interest,Northwest Arctic Borough,0,No,No,No,No
+-148.89538626,63.39242527,Cantwell,CDP,Community,Denali Borough,196,Yes,Yes,No,Yes
+-142.10081923,67.14753403,Canyon Village,Unincorporated,Place of interest,Yukon-Koyukuk Census Area,0,No,No,No,No
+-166.21260212,68.8801672700001,Cape Lisburne,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
 -149.971789,62.0168980000001,Caswell,Locality,Place of Interest,Matanuska-Susitna Borough,0,,No,No,No
--145.89544905,64.1513819800001,Whitestone,Unincorporated CDP,Community,Southeast Fairbanks Census Area,141,No,Yes,No,No
--135.89587576,59.40043417,Klukwan,Unincorporated CDP,Community,Hoonah-Angoon Census Area,88,Yes,Yes,No,Yes
--154.49827348,59.55470038,Pope-Vannoy Landing,CDP,Place of Interest,Lake and Peninsula Borough,5,No,Yes,No,No
--149.02684282,63.9048025500001,Lignite,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
--154.17324554,56.9468146400001,Kaguyak,Locality,Place of Interest,Kodiak Island Borough,0,,Yes,No,No
--147.72600629,61.79346959,Glacier View,CDP,Community,Matanuska-Susitna Borough,239,Yes,Yes,No,No
--150.1075,67.4100000000001,Wiseman,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,5,Yes,Yes,No,No
--146.4218093,67.0167170700001,Venetie,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,185,No,Yes,No,Yes
--151.53200662,59.64718757,Homer,1st Class City,Community,Kenai Peninsula Borough,5491,Yes,No,No,No
+-144.82193545,65.57070889,Central,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,64,Yes,Yes,Yes,No
+-143.7278962,66.65040098,Chalkyitsik,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,52,No,Yes,No,Yes
+-150.0512588,62.44980587,Chase,CDP,Community,Matanuska-Susitna Borough,19,No,No,No,No
+-164.28034055,60.1580149500001,Chefornak,2nd Class City,Community,Bethel Census Area,504,No,Yes,No,Yes
+-147.96915819,64.8258662200001,Chena Ridge,CDP,Place of Interest,Fairbanks North Star Borough,6014,Yes,Yes,No,No
+-148.01234038,60.0655963200001,Chenega,Unincorporated CDP,Community,Chugach Census Area,65,No,Yes,No,Yes
+-165.59052769,61.5286181800001,Chevak,2nd Class City,Community,Kusilvak Census Area,939,No,Yes,No,Yes
+-148.47881249,61.79624012,Chickaloon,CDP,Community,Matanuska-Susitna Borough,257,Yes,No,No,No
+-141.93364877,64.0726259100001,Chicken,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,12,Yes,Yes,No,No
+-158.41415576,56.3012632000001,Chignik,2nd Class City,Community,Lake and Peninsula Borough,84,No,Yes,Yes,Yes
+-158.53776105,56.31042481,Chignik Lagoon,CDP,Community,Lake and Peninsula Borough,72,No,Yes,No,Yes
+-158.76308415,56.25373123,Chignik Lake,CDP,Community,Lake and Peninsula Borough,63,No,Yes,Yes,Yes
+-152.22281779,57.61797554,Chiniak,CDP,Place of Interest,Kodiak Island Borough,51,No,No,No,No
+-142.03526376,62.05966564,Chisana,Unincorporated CDP,Place of Interest,Copper River Census Area,0,No,Yes,Yes,No
+-144.66418745,62.5663622600001,Chistochina,Unincorporated CDP,Community,Copper River Census Area,59,Yes,Yes,No,Yes
+-144.44111788,61.5164902700001,Chitina,Unincorporated CDP,Community,Copper River Census Area,97,Yes,Yes,Yes,No
+-159.24202177,61.57491472,Chuathbaluk,2nd Class City,Community,Bethel Census Area,93,No,Yes,No,Yes
+-149.5351971,61.36992924,Chugiak,Locality,Place of Interest,Municipality of Anchorage,5236,Yes,No,No,No
+-164.17930051,62.9450601400001,Chuloonawick,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-144.06674913,65.8266465400001,Circle,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,76,Yes,Yes,Yes,Yes
+-144.63907262,65.4830449,Circle Hot Springs,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,Yes,No,No,No
+-149.08786612,61.54831755,Circle View Stampede,Locality,Place of Interest,Matanuska-Susitna Borough,0,Yes,No,No,No
+-151.40223941,60.2264313800001,Clam Gulch,CDP,Community,Kenai Peninsula Borough,202,Yes,No,No,No
+-158.54797691,58.8345343,Clark's Point,2nd Class City,Community,Dillingham Census Area,75,No,Yes,Yes,Yes
+-149.19051194,64.2554297,Clear,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
+-132.82826284,56.0140424900001,Coffman Cove,2nd Class City,Community,Prince of Wales-Hyder Census Area,187,No,Yes,No,No
 -151.31957957,60.36911853,Cohoe,CDP,Community,Kenai Peninsula Borough,1523,Yes,Yes,No,No
+-162.71498738,55.2065679500001,Cold Bay,2nd Class City,Community,Aleutians East Borough,54,No,Yes,No,Yes
+-150.18959842,67.25623468,Coldfoot,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,28,Yes,Yes,No,No
+-147.8028,64.8569000000001,College,CDP,Place of Interest,Fairbanks North Star Borough,11622,Yes,Yes,No,No
+-149.80840696,60.4948727600001,Cooper Landing,CDP,Community,Kenai Peninsula Borough,363,Yes,No,No,No
+-145.3053,61.955,Copper Center,Unincorporated CDP,Community,Copper River Census Area,320,Yes,Yes,No,No
+-145.41422234,62.0704106800001,Copperville,Unincorporated,Place of Interest,Copper River Census Area,0,Yes,Yes,No,No
+-145.76017488,60.54406292,Cordova,Home Rule City,Community,Chugach Census Area,2545,No,Yes,Yes,No
+-163.6763889,64.895,Council,Unincorporated,Place of Interest,Nome Census Area,2,No,Yes,No,No
+-135.98980801,59.3937181100001,Covenant Life,CDP,Place of Interest,Haines Borough,73,Yes,Yes,No,No
+-133.15108263,55.4760442100001,Craig,1st Class City,Community,Prince of Wales-Hyder Census Area,969,No,Yes,No,Yes
+-158.10581652,61.8704253700001,Crooked Creek,Unincorporated CDP,Community,Bethel Census Area,88,No,Yes,No,Yes
+-149.36954724,60.41930962,Crown Point,CDP,Community,Kenai Peninsula Borough,125,Yes,Yes,No,No
+-134.7336438,57.94151874,Cube Cove,Unincorporated,Place of Interest,Hoonah-Angoon Census Area,0,No,Yes,No,No
+-162.72884219,66.07667336,Deering,2nd Class City,Community,Northwest Arctic Borough,190,No,Yes,No,Yes
+-145.73666819,64.04716726,Delta Junction,2nd Class City,Community,Southeast Fairbanks Census Area,925,Yes,No,No,No
+-145.17379154,63.8871444900001,Deltana,Unincorporated CDP,Community,Southeast Fairbanks Census Area,2342,Yes,Yes,No,No
+-148.91686675,63.7323200700001,Denali Park,CDP,Community,Denali Borough,160,Yes,No,No,No
+-151.5575,59.6761111000001,Diamond Ridge,CDP,Community,Kenai Peninsula Borough,1336,Yes,Yes,No,No
+-158.46307877,59.0393744300001,Dillingham,1st Class City,Community,Dillingham Census Area,2209,No,Yes,No,Yes
+-168.95179186,65.7583525100001,Diomede,2nd Class City,Community,Nome Census Area,85,No,Yes,Yes,Yes
+-144.05888081,63.65794205,Dot Lake,Unincorporated CDP,Community,Southeast Fairbanks Census Area,16,Yes,Yes,No,No
+-144.04934005,63.65559219,Dot Lake Village,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,44,Yes,Yes,No,Yes
+-134.40087082,58.2791882700001,Douglas,Locality,Place of Interest,City and Borough of Juneau,5573,No,No,No,No
+-144.60181163,63.67518647,Dry Creek,Unincorporated CDP,Community,Southeast Fairbanks Census Area,58,Yes,Yes,No,No
+-135.3611485,59.48035687,Dyea,Locality,Community,Municipality of Skagway,0,Yes,No,No,No
+-141.2075972,64.7889396800001,Eagle,2nd Class City,Community,Southeast Fairbanks Census Area,76,Yes,Yes,No,Yes
+-149.54650955,61.3151319900001,Eagle River,Locality,Place of Interest,Municipality of Anchorage,6425,Yes,Yes,No,No
+-141.04578638,64.74518901,Eagle Village,Unincorporated CDP,Community,Southeast Fairbanks Census Area,49,Yes,Yes,No,No
+174.1121,52.7246000000001,Eareckson Station,Unincorporated,Place of Interest,Aleutians West Census Area,232,No,No,No,No
+-133.65815775,55.9551227100001,Edna Bay,2nd Class City,Community,Prince of Wales-Hyder Census Area,49,No,Yes,No,No
+-162.02949727,60.2189059200001,Eek,2nd Class City,Community,Bethel Census Area,408,No,Yes,No,Yes
+-157.37575053,58.2090702300001,Egegik,2nd Class City,Community,Lake and Peninsula Borough,39,No,Yes,Yes,Yes
+-147.08105662,64.6701432,Eielson AFB,CDP,Place of Interest,Fairbanks North Star Borough,3194,Yes,No,No,No
+-158.56082655,58.8159796400001,Ekuk,Unincorporated,Place of Interest,Dillingham Census Area,2,No,Yes,No,No
+-157.47804697,59.3502442700001,Ekwok,2nd Class City,Community,Dillingham Census Area,103,No,Yes,Yes,Yes
+-136.3454861,58.19391484,Elfin Cove,Unincorporated CDP,Community,Hoonah-Angoon Census Area,32,No,Yes,Yes,No
+-162.26450688,64.61655211,Elim,2nd Class City,Community,Nome Census Area,345,No,Yes,No,Yes
+-164.52984686,62.7769473800001,Emmonak,2nd Class City,Community,Kusilvak Census Area,861,No,Yes,No,Yes
+-147.97679327,64.85543162,Ester,CDP,Community,Fairbanks North Star Borough,2516,Yes,No,No,No
+-148.05533185,64.8793417300001,Ester Dome,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
+-147.1680556,61.9386111000001,Eureka Roadhouse,CDP,Place of Interest,Matanuska-Susitna Borough,22,Yes,Yes,No,No
+-151.50578451,66.92462485,Evansville,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,12,No,Yes,No,No
+-135.44314779,58.41682002,Excursion Inlet,CDP,Place of Interest,Haines Borough,25,No,Yes,Yes,No
+-145.6351157,60.5262940000001,Eyak,Unincorporated,Place of Interest,Chugach Census Area,131,No,Yes,No,No
+-147.72124822,64.83969225,Fairbanks,Home Rule City,Community,Fairbanks North Star Borough,33522,Yes,No,No,No
+-163.41473878,54.8550308600001,False Pass,2nd Class City,Community,Aleutians East Borough,397,No,Yes,Yes,Yes
+-149.14533535,61.64000731,Farm Loop,CDP,Place of Interest,Matanuska-Susitna Borough,2748,Yes,Yes,No,No
+-147.76059729,64.8898107300001,Farmers Loop,CDP,Place of Interest,Fairbanks North Star Borough,4681,Yes,Yes,No,No
+-149.11573078,64.0170859300001,Ferry,CDP,Place of Interest,Denali Borough,17,Yes,No,No,No
+-149.24867697,61.6932211800001,Fishhook,CDP,Community,Matanuska-Susitna Borough,5216,Yes,No,No,No
+-158.0075,62.4536000000001,Flat,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,0,No,Yes,No,No
+-167.89553765,53.38509408,Fort Glenn,Unincorporated,Place of Interest,Aleutians West Census Area,0,No,No,No,No
+-145.72394043,63.9918179900001,Fort Greely,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,363,Yes,No,No,No
+-147.6436527,64.8278334500001,Fort Wainwright,Locality,Place of Interest,Fairbanks North Star Borough,11213,Yes,No,No,No
+-145.24128376,66.5661669,Fort Yukon,2nd Class City,Community,Yukon-Koyukuk Census Area,508,No,Yes,No,Yes
+-149.1179,64.6003000000001,Four Mile Road,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,32,Yes,Yes,No,No
+-147.6183,64.9581000000001,Fox,CDP,Community,Fairbanks North Star Borough,418,Yes,No,No,No
+-150.91597622,59.8535156300001,Fox River,CDP,Place of Interest,Kenai Peninsula Borough,641,Yes,Yes,No,No
+-151.29865991,59.7254375000001,Fritz Creek,CDP,Community,Kenai Peninsula Borough,2282,Yes,No,No,No
+-150.7622222,60.5019444000001,Funny River,CDP,Community,Kenai Peninsula Borough,1110,Yes,Yes,No,No
+-145.30187315,62.3018968100001,Gakona,Unincorporated CDP,Community,Copper River Census Area,179,Yes,Yes,No,No
+-156.87712316,64.7426528600001,Galena,1st Class City,Community,Yukon-Koyukuk Census Area,476,No,Yes,No,Yes
+-171.71882642,63.7768845400001,Gambell,2nd Class City,Community,Nome Census Area,620,No,Yes,No,Yes
+-135.50986598,58.0558686300001,Game Creek,Unincorporated CDP,Place of Interest,Hoonah-Angoon Census Area,19,No,Yes,No,No
+-149.23996944,61.5740853200001,Gateway,CDP,Community,Matanuska-Susitna Borough,5905,Yes,Yes,No,No
+-157.75696671,61.8887285700001,Georgetown,Unincorporated,Place of Interest,Bethel Census Area,1,No,Yes,No,No
+-149.12804397,60.96775196,Girdwood,Locality,Place of Interest,Municipality of Anchorage,2438,Yes,No,No,No
+-147.72600629,61.79346959,Glacier View,CDP,Community,Matanuska-Susitna Borough,239,Yes,Yes,No,No
+-145.52778197,62.1126684500001,Glennallen,Unincorporated CDP,Community,Copper River Census Area,437,Yes,Yes,No,No
+-145.53740671,63.9822426900001,Gold Sand Acres,Unincorporated,Community,Southeast Fairbanks Census Area,69,Yes,No,No,No
+-147.87946723,64.9273104000001,Goldstream,CDP,Community,Fairbanks North Star Borough,3321,Yes,Yes,No,No
+-163.03671154,64.5423909500001,Golovin,2nd Class City,Community,Nome Census Area,178,No,Yes,No,Yes
+-161.58225677,59.1182251700001,Goodnews Bay,2nd Class City,Community,Bethel Census Area,249,No,Yes,No,Yes
+-160.06572812,62.9064389100001,Grayling,2nd Class City,Community,Yukon-Koyukuk Census Area,210,No,Yes,No,Yes
+-145.37187803,62.26858008,Gulkana,Unincorporated CDP,Community,Copper River Census Area,90,Yes,Yes,Yes,Yes
+-135.73906162,58.4133428700001,Gustavus,2nd Class City,Community,Hoonah-Angoon Census Area,658,No,Yes,Yes,No
+-151.22378748,59.5976979500001,Halibut Cove,CDP,Place of Interest,Kenai Peninsula Borough,64,No,No,No,No
+-163.8941667,62.8961111,Hamilton,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-151.73800293,59.93501064,Happy Valley,CDP,Community,Kenai Peninsula Borough,695,Yes,Yes,No,No
+-146.59929367,64.37150719,Harding-Birch Lakes,CDP,Place of Interest,Fairbanks North Star Borough,265,Yes,Yes,No,No
+-147.62855218,65.1227222900001,Haystack,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
+-149.00584489,63.8703844300001,Healy,CDP,Community,Denali Borough,942,Yes,No,No,No
+-144.69818393,63.99574441,Healy Lake,Unincorporated CDP,Community,Southeast Fairbanks Census Area,24,No,Yes,Yes,Yes
+-133.34780625,57.46425365,Hobart Bay,CDP,Place of Interest,Petersburg Borough,1,No,Yes,No,No
+-132.6500231,55.4822323000001,Hollis,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,138,No,Yes,No,No
+-159.77182893,62.1984422,Holy Cross,2nd Class City,Community,Yukon-Koyukuk Census Area,158,No,Yes,No,Yes
+-151.53200662,59.64718757,Homer,1st Class City,Community,Kenai Peninsula Borough,5491,Yes,No,No,No
+-135.44570828,58.10953807,Hoonah,1st Class City,Community,Hoonah-Angoon Census Area,902,No,Yes,No,Yes
+-166.09643323,61.5308796900001,Hooper Bay,2nd Class City,Community,Kusilvak Census Area,1330,No,Yes,No,Yes
+-149.62222901,60.91793289,Hope,CDP,Community,Kenai Peninsula Borough,153,Yes,No,No,No
+-149.80142669,61.6312394,Houston,2nd Class City,Community,Matanuska-Susitna Borough,1989,Yes,No,No,No
+-154.25821908,66.0458727800001,Hughes,2nd Class City,Community,Yukon-Koyukuk Census Area,84,No,Yes,No,Yes
+-156.39470172,65.70183545,Huslia,2nd Class City,Community,Yukon-Koyukuk Census Area,301,No,Yes,No,Yes
+-132.8235136,55.2059259000001,Hydaburg,1st Class City,Community,Prince of Wales-Hyder Census Area,376,No,Yes,Yes,Yes
+-130.02551423,55.9157523000001,Hyder,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,42,Yes,Yes,No,No
+-158.09565052,62.54422249,Iditarod,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
+-155.90354017,59.32534731,Igiugig,CDP,Community,Lake and Peninsula Borough,61,No,Yes,Yes,Yes
+-154.9061,59.7547000000001,Iliamna,CDP,Community,Lake and Peninsula Borough,112,No,Yes,No,Yes
+-159.48416326,55.9034342200001,Ivanof Bay,CDP,Place of Interest,Lake and Peninsula Borough,1,No,Yes,No,Yes
+-151.53782894,59.46585407,Jakolof Bay,Locality,Place of Interest,Kenai Peninsula Borough,0,No,No,No,No
+-149.807094,61.2570600000001,Joint Base Elmendorf-Richardson,Locality,Place of Interest,Municipality of Anchorage,4657,Yes,No,No,No
+-134.40663973,58.2998397100001,Juneau,Unified Home Rule Borough,Community,City and Borough of Juneau,32155,No,No,No,No
+-151.45273429,59.66696928,Kachemak,2nd Class City,Community,Kenai Peninsula Borough,620,Yes,Yes,No,No
+-151.07407142,59.7946689300001,Kachemak Selo,Locality,Community,Kenai Peninsula Borough,0,Yes,No,No,No
+-154.17324554,56.9468146400001,Kaguyak,Locality,Place of Interest,Kodiak Island Borough,0,,Yes,No,No
+-133.9447988,56.9744498800001,Kake,1st Class City,Community,Prince of Wales-Hyder Census Area,557,No,Yes,Yes,Yes
+-143.6128541,70.1266124700001,Kaktovik,2nd Class City,Community,North Slope Borough,266,No,Yes,No,Yes
+-151.14257545,60.4866414200001,Kalifornsky,CDP,Community,Kenai Peninsula Borough,8564,Yes,Yes,No,No
+-158.72493203,64.3265639300001,Kaltag,2nd Class City,Community,Yukon-Koyukuk Census Area,149,No,Yes,No,Yes
+-156.03611361,57.5677538,Kanatak,Locality,Place of Interest,Bristol Bay Borough,0,No,Yes,No,No
+-154.43668249,57.56248915,Karluk,CDP,Community,Kodiak Island Borough,27,No,Yes,No,Yes
+-132.40392924,55.5396225600001,Kasaan,2nd Class City,Community,Prince of Wales-Hyder Census Area,86,No,Yes,No,Yes
+-162.51946956,60.89457329,Kasigluk,Unincorporated CDP,Community,Bethel Census Area,613,No,Yes,No,Yes
+-151.25684667,60.3249378400001,Kasilof,CDP,Community,Kenai Peninsula Borough,519,Yes,No,No,No
+-151.24880589,60.5590139000001,Kenai,Home Rule City,Community,Kenai Peninsula Borough,7380,Yes,No,No,No
+-144.94740603,61.7374181000001,Kenny Lake,Unincorporated CDP,Community,Copper River Census Area,299,Yes,Yes,No,No
+-131.64802329,55.3424333300001,Ketchikan,Home Rule City,Community,Ketchikan Gateway Borough,8149,No,No,No,No
+-160.43731917,66.9742028200001,Kiana,2nd Class City,Community,Northwest Arctic Borough,433,No,Yes,No,Yes
+-162.31126632,55.0595082400001,King Cove,1st Class City,Community,Aleutians East Borough,855,No,Yes,Yes,Yes
+-168.05495062,64.9610826800001,King Island,Unincorporated,Place of Interest,Nome Census Area,0,No,Yes,No,No
+-156.66764668,58.6813712700001,King Salmon,CDP,Community,Bristol Bay Borough,297,No,Yes,No,No
+-164.03794006,59.9363864000001,Kipnuk,Unincorporated CDP,Community,Bethel Census Area,712,No,Yes,No,Yes
+-164.5399655,67.7273868300001,Kivalina,2nd Class City,Community,Northwest Arctic Borough,444,No,Yes,No,Yes
+-133.09603454,55.55450419,Klawock,1st Class City,Community,Prince of Wales-Hyder Census Area,709,No,Yes,No,Yes
+-136.13227706,59.4280005000001,Klehini Valley,Locality,Community,Haines Borough,0,Yes,No,No,No
+-135.89587576,59.40043417,Klukwan,Unincorporated CDP,Community,Hoonah-Angoon Census Area,88,Yes,Yes,No,Yes
+-149.72257084,61.4620867300001,Knik,Locality,Place of Interest,Matanuska-Susitna Borough,0,Yes,No,No,No
+-148.94092664,61.4971211500001,Knik River,CDP,Community,Matanuska-Susitna Borough,841,Yes,Yes,No,No
+-149.62083067,61.51685582,Knik-Fairview,CDP,Community,Matanuska-Susitna Borough,19476,Yes,Yes,No,No
+-156.88237275,66.9077009200001,Kobuk,2nd Class City,Community,Northwest Arctic Borough,183,No,Yes,No,Yes
+-152.39748118,57.7930013600001,Kodiak,Home Rule City,Community,Kodiak Island Borough,5495,No,No,No,No
+-152.5037,57.7381,Kodiak Station,CDP,Place of Interest,Kodiak Island Borough,1590,No,No,No,No
+-154.74918539,59.4400057400001,Kokhanok,CDP,Community,Lake and Peninsula Borough,139,No,Yes,No,Yes
+-157.28569589,59.7264073700001,Koliganek,Unincorporated CDP,Community,Dillingham Census Area,176,No,Yes,Yes,Yes
+-162.88706395,59.9594387400001,Kongiganak,Unincorporated CDP,Community,Bethel Census Area,494,No,Yes,No,Yes
+-163.55653659,63.0331139900001,Kotlik,2nd Class City,Community,Kusilvak Census Area,639,No,Yes,No,Yes
+-162.59298933,66.8966754200001,Kotzebue,2nd Class City,Community,Northwest Arctic Borough,3004,No,Yes,No,Yes
+-161.16487363,64.9306613100001,Koyuk,2nd Class City,Community,Nome Census Area,307,No,Yes,No,Yes
+-157.70270185,64.8817887800001,Koyukuk,2nd Class City,Community,Yukon-Koyukuk Census Area,94,No,Yes,No,Yes
+-132.97770415,56.81669536,Kupreanof,2nd Class City,Community,Petersburg Borough,23,No,Yes,No,No
+-161.43754673,60.81122837,Kwethluk,2nd Class City,Community,Bethel Census Area,799,No,Yes,No,Yes
+-163.15761839,59.8770966700001,Kwigillingok,Unincorporated CDP,Community,Bethel Census Area,380,No,Yes,No,Yes
+-146.58825648,62.29986189,Lake Louise,CDP,Community,Matanuska-Susitna Borough,35,Yes,Yes,No,No
+-152.31468697,63.88261006,Lake Minchumina,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,37,No,Yes,Yes,No
+-153.9814353,57.5370683300001,Larsen Bay,2nd Class City,Community,Kodiak Island Borough,33,No,Yes,No,No
+-149.04599844,61.6283302300001,Lazy Mountain,CDP,Community,Matanuska-Susitna Borough,1572,Yes,No,No,No
+-156.85750185,59.11246319,Levelock,CDP,Community,Lake and Peninsula Borough,65,No,Yes,Yes,Yes
+-149.02684282,63.9048025500001,Lignite,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
+-155.43702258,61.3553888800001,Lime Village,Unincorporated CDP,Community,Bethel Census Area,5,No,Yes,No,Yes
+-152.82914949,58.08155665,Litnik,Locality,Place of Interest,Kodiak Island Borough,0,,No,No,No
+-148.54850048,65.5228139800001,Livengood,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,20,Yes,Yes,No,No
+-131.6373989,55.6028174200001,Loring,CDP,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
+-149.4411111,60.0725,Lowell Point,CDP,Community,Kenai Peninsula Borough,89,Yes,Yes,No,No
+-160.36440167,61.5123629700001,Lower Kalskag,2nd Class City,Community,Bethel Census Area,262,No,Yes,No,Yes
+-135.5462038,59.31301367,Lutak,CDP,Place of Interest,Haines Borough,65,Yes,Yes,No,No
+-150.63716518,64.9958868300001,Manley Hot Springs,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,98,Yes,Yes,No,Yes
+-159.05492998,58.97954187,Manokotak,2nd Class City,Community,Dillingham Census Area,477,No,Yes,Yes,Yes
+-162.08816948,61.8814414300001,Marshall,2nd Class City,Community,Kusilvak Census Area,468,No,Yes,No,Yes
+-165.06382026,65.1473228300001,Mary's Igloo,Unincorporated,Place of Interest,Nome Census Area,1,No,Yes,No,No
+-142.92370024,61.43287967,McCarthy,Unincorporated CDP,Community,Copper River Census Area,109,Yes,Yes,Yes,No
+-155.58835315,62.9501408500001,McGrath,2nd Class City,Community,Yukon-Koyukuk Census Area,274,No,Yes,No,Yes
+-149.60355194,61.62425754,Meadow Lakes,CDP,Community,Matanuska-Susitna Borough,9485,Yes,No,No,No
+-154.69920739,63.1054040400001,Medfra,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,,No,No,No
+-166.1928612,60.38649408,Mekoryuk,2nd Class City,Community,Bethel Census Area,195,No,Yes,No,Yes
+-146.5383,62.0494,Mendeltna,Unincorporated CDP,Community,Copper River Census Area,38,Yes,Yes,No,No
+-143.79758178,62.92939878,Mentasta Lake,Unincorporated CDP,Community,Copper River Census Area,118,Yes,Yes,No,No
+-164.50713521,60.8188798400001,Mertarvik,Unincorporated CDP,Place of Interest,Bethel Census Area,71,No,Yes,No,No
+-131.57330705,55.1260739100001,Metlakatla,Indian reservation organized under federal law,Community,Prince of Wales-Hyder Census Area,1403,No,Yes,No,No
+-132.25626082,55.7392589,Meyers Chuck,Locality,Place of Interest,City and Borough of Wrangell,0,No,No,No,No
+-151.4435797,59.6659190400001,Millers Landing,Locality,Place of Interest,Kenai Peninsula Borough,0,,No,No,No
+-149.34826008,65.1521483400001,Minto,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,156,Yes,Yes,Yes,Yes
+-147.15053014,64.70862307,Moose Creek,CDP,Community,Fairbanks North Star Borough,526,Yes,No,No,No
+-149.36827705,60.4864352800001,Moose Pass,CDP,Community,Kenai Peninsula Borough,232,Yes,No,No,No
+-136.0314547,59.44650625,Mosquito Lake,CDP,Place of Interest,Haines Borough,294,Yes,Yes,No,No
+-131.53473777,55.2971708800001,Mountain Point,Locality,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
+-163.72627562,62.08954141,Mountain Village,2nd Class City,Community,Kusilvak Census Area,602,No,Yes,No,Yes
+-135.37500524,59.1599890900001,Mud Bay,CDP,Place of Interest,Haines Borough,203,Yes,Yes,No,No
+-143.01178595,62.37195602,Nabesna,Unincorporated CDP,Place of Interest,Copper River Census Area,1,Yes,Yes,No,No
+-157.01991376,58.72821587,Naknek,CDP,Community,Bristol Bay Borough,464,No,Yes,No,No
+-151.91992102,59.3544344900001,Nanwalek,CDP,Community,Kenai Peninsula Borough,244,No,Yes,No,Yes
+-158.73284409,61.53637174,Napaimute,Unincorporated,Place of Interest,Bethel Census Area,0,No,Yes,No,No
+-161.97262602,60.6943313400001,Napakiak,2nd Class City,Community,Bethel Census Area,361,No,Yes,No,Yes
+-161.75319706,60.7082335600001,Napaskiak,2nd Class City,Community,Bethel Census Area,487,No,Yes,No,Yes
+-133.20267814,55.86896699,Naukati Bay,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,137,No,Yes,No,No
+-146.77891647,61.9898422000001,Nelchina,Unincorporated CDP,Community,Copper River Census Area,46,Yes,Yes,No,No
+-161.20184982,56.0012060400001,Nelson Lagoon,CDP,Community,Aleutians East Borough,33,No,Yes,No,Yes
+-149.09074136,64.56270921,Nenana,Home Rule City,Community,Yukon-Koyukuk Census Area,358,Yes,Yes,No,Yes
+-152.65179399,66.539456,New Allakaket,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,0,No,Yes,No,No
+-157.31128856,59.4515508600001,New Stuyahok,2nd Class City,Community,Dillingham Census Area,480,No,Yes,Yes,Yes
+-154.89480018,59.72097095,Newhalen,2nd Class City,Community,Lake and Peninsula Borough,178,No,Yes,No,Yes
+-164.62941623,60.93686382,Newtok,Unincorporated CDP,Community,Bethel Census Area,193,No,Yes,No,Yes
+-164.72996641,60.4799803000001,Nightmute,2nd Class City,Community,Bethel Census Area,304,No,Yes,No,Yes
+-151.29692559,60.7345972300001,Nikiski,CDP,Community,Kenai Peninsula Borough,4443,Yes,No,No,No
+-151.61311471,59.81132569,Nikolaevsk,CDP,Community,Kenai Peninsula Borough,343,Yes,No,No,No
+-154.37521598,63.01373203,Nikolai,2nd Class City,Community,Yukon-Koyukuk Census Area,92,No,Yes,No,Yes
+-168.86018348,52.9401089500001,Nikolski,Unincorporated CDP,Community,Aleutians West Census Area,42,No,Yes,Yes,Yes
+-151.67510116,60.04305213,Ninilchik,CDP,Community,Kenai Peninsula Borough,844,Yes,No,No,Yes
+-162.98850003,67.5718168000001,Noatak,CDP,Community,Northwest Arctic Borough,533,No,Yes,No,Yes
+-165.40855986,64.49808969,Nome,1st Class City,Community,Nome Census Area,3524,No,Yes,No,Yes
+-154.8575714,59.9678738700001,Nondalton,2nd Class City,Community,Lake and Peninsula Borough,129,No,Yes,No,Yes
+-161.04682576,66.83334504,Noorvik,2nd Class City,Community,Northwest Arctic Borough,640,No,Yes,No,Yes
+-149.310724,61.6183780000001,North Lakes,CDP,Place of Interest,Matanuska-Susitna Borough,9733,Yes,No,No,No
+-147.35149648,64.7549026500001,North Pole,Home Rule City,Community,Fairbanks North Star Borough,2174,Yes,No,No,No
+-141.93417861,62.9617709300001,Northway,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,234,Yes,Yes,No,No
+-150.99901621,70.21731414,Nuiqsut,2nd Class City,Community,North Slope Borough,525,No,Yes,No,Yes
+-158.10535466,64.7234193800001,Nulato,2nd Class City,Community,Yukon-Koyukuk Census Area,223,No,Yes,No,Yes
+-164.85200389,62.5310651300001,Nunam Iqua,2nd Class City,Community,Kusilvak Census Area,216,No,Yes,No,Yes
+-162.45740501,60.8972172800001,Nunapitchuk,2nd Class City,Community,Bethel Census Area,567,No,Yes,No,Yes
+-166.38705327,60.1016582,Nunivak Island,Unincorporated,Place of Interest,Bethel Census Area,0,,No,No,No
+-161.86539037,61.5672487300001,Ohogamiut,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-153.28367127,57.21341891,Old Harbor,2nd Class City,Community,Kodiak Island Borough,210,No,Yes,No,Yes
+-149.87993996,70.4975517300001,Oliktok,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
+-156.52113197,63.14397275,Ophir,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
+-161.77136517,60.7226475400001,Oscarville,Unincorporated CDP,Community,Bethel Census Area,75,No,Yes,No,Yes
+-152.50398554,57.9232638,Ouzinkie,2nd Class City,Community,Kodiak Island Borough,114,No,Yes,No,Yes
+-165.84116537,61.69961533,Paimiut,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
+-149.11775808,61.5997057600001,Palmer,Home Rule City,Community,Matanuska-Susitna Borough,5932,Yes,No,No,No
+-162.69971497,54.4558662600001,Pauloff Harbor,Locality,Place of Interest,Aleutians East Borough,0,No,Yes,No,No
+-145.49600069,63.0324502400001,Paxson,Unincorporated CDP,Community,Copper River Census Area,27,Yes,Yes,No,No
+-154.09956667,59.78824382,Pedro Bay,CDP,Community,Lake and Peninsula Borough,40,No,Yes,No,Yes
+-136.22974756,57.9606687,Pelican,1st Class City,Community,Hoonah-Angoon Census Area,92,No,Yes,Yes,No
+-131.62990791,55.3211840600001,Pennock Island,Locality,Place of Interest,Ketchikan Gateway Borough,0,No,No,No,No
+-159.14339251,55.91158561,Perryville,CDP,Community,Lake and Peninsula Borough,87,No,Yes,Yes,Yes
+-149.44702422,61.4123162400001,Peters Creek,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
+-150.76790264,62.4964964500001,Petersville,CDP,Community,Matanuska-Susitna Borough,28,Yes,Yes,No,No
+-153.88450386,59.7801887900001,Pile Bay,Locality,Place of Interest,Lake and Peninsula Borough,0,No,No,No,No
+-157.57733276,57.5642993500001,Pilot Point,2nd Class City,Community,Lake and Peninsula Borough,59,No,Yes,Yes,Yes
+-162.88313585,61.9372025100001,Pilot Station,2nd Class City,Community,Kusilvak Census Area,609,No,Yes,No,Yes
+-163.28701943,62.0318125700001,Pitkas Point,Unincorporated CDP,Community,Kusilvak Census Area,124,No,Yes,No,Yes
+-161.81475033,59.00848275,Platinum,2nd Class City,Community,Bethel Census Area,59,No,Yes,No,Yes
+-146.85516397,64.8777178500001,Pleasant Valley,CDP,Community,Fairbanks North Star Borough,599,Yes,Yes,No,No
+-133.62121059,56.3513641000001,Point Baker,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,10,No,Yes,No,No
+-166.73427192,68.34808223,Point Hope,2nd Class City,Community,North Slope Borough,879,No,Yes,No,Yes
+-163.00913774,69.7431228900001,Point Lay,CDP,Community,North Slope Borough,308,No,Yes,No,Yes
+-150.0108417,61.3551864900001,Point MacKenzie,CDP,Community,Matanuska-Susitna Borough,2087,Yes,Yes,No,No
+-150.37835622,61.0350394000001,Point Possession,CDP,Place of Interest,Kenai Peninsula Borough,10,Yes,Yes,No,No
+-155.54739837,64.09977795,Poorman,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
+-154.49827348,59.55470038,Pope-Vannoy Landing,CDP,Place of Interest,Lake and Peninsula Borough,5,No,Yes,No,No
+-134.64699558,56.2492376800001,Port Alexander,2nd Class City,Community,Prince of Wales-Hyder Census Area,61,No,Yes,Yes,No
+-154.32808373,60.19602229,Port Alsworth,CDP,Community,Lake and Peninsula Borough,181,No,Yes,No,No
+-166.84951599,65.2618559900001,Port Clarence,Unincorporated CDP,Place of Interest,Nome Census Area,0,No,Yes,No,No
+-151.83172437,59.3515619300001,Port Graham,CDP,Community,Kenai Peninsula Borough,160,No,Yes,No,Yes
+-158.61901559,56.93007699,Port Heiden,2nd Class City,Community,Lake and Peninsula Borough,91,No,Yes,Yes,Yes
+-152.88344189,57.86662239,Port Lions,2nd Class City,Community,Kodiak Island Borough,170,No,Yes,Yes,Yes
+-160.57551861,55.98767639,Port Moller,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
+-133.60721671,56.3223510700001,Port Protection,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,35,No,Yes,No,No
+-152.58367032,58.4904418200001,Port William,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
+-148.9852036,60.8320999700001,Portage,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
+-157.71981375,58.9051910300001,Portage Creek,Unincorporated CDP,Place of Interest,Dillingham Census Area,4,No,Yes,No,Yes
 -151.74113237,59.21271504,Portlock,Locality,Place of Interest,Kenai Peninsula Borough,0,Yes,No,No,No
+-149.35258984,60.3576311800001,Primrose,CDP,Community,Kenai Peninsula Borough,89,Yes,Yes,No,No
+-148.3372,70.2553,Prudhoe Bay,CDP,Place of Interest,North Slope Borough,1293,Yes,Yes,No,No
+-151.45404303,59.67334192,Ptarmigan Heights,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
+-161.9006125,59.7514267400001,Quinhagak,2nd Class City,Community,Bethel Census Area,744,No,Yes,No,Yes
+-149.82408258,61.0848208400001,Rabbit Creek,Locality,Place of Interest,Municipality of Anchorage,4166,Yes,No,No,No
+-150.1718169,65.5033866300001,Rampart,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,62,No,Yes,No,Yes
+-151.08274455,59.8127242100001,Razdolna Village,Locality,Community,Kenai Peninsula Borough,0,Yes,No,No,No
+-157.33465586,61.7822606500001,Red Devil,Unincorporated CDP,Community,Bethel Census Area,23,No,Yes,No,No
+-162.85415523,68.07171169,Red Dog Mine,CDP,Place of Interest,Northwest Arctic Borough,5,No,Yes,No,No
+-151.08107415,60.53130471,Ridgeway,CDP,Community,Kenai Peninsula Borough,2073,Yes,Yes,No,No
+-155.48894931,64.7392281,Ruby,2nd Class City,Community,Yukon-Koyukuk Census Area,141,No,Yes,No,Yes
+-161.32349606,61.78384234,Russian Mission,2nd Class City,Community,Kusilvak Census Area,420,No,Yes,No,Yes
+-169.54528,56.6014257,Saint George,2nd Class City,Community,Aleutians West Census Area,68,No,Yes,No,Yes
+-163.17516104,62.0514716000001,Saint Mary's,1st Class City,Community,Kusilvak Census Area,593,No,Yes,No,Yes
+-162.03991035,63.47835158,Saint Michael,2nd Class City,Community,Nome Census Area,450,No,Yes,No,Yes
+-170.28228831,57.1203994800001,Saint Paul,2nd Class City,Community,Aleutians West Census Area,391,No,Yes,No,Yes
+-151.3334305,60.61773773,Salamatof,CDP,Community,Kenai Peninsula Borough,1060,Yes,Yes,No,No
+-146.97720965,64.48242457,Salcha,CDP,Community,Fairbanks North Star Borough,983,Yes,No,No,No
+-162.81368155,54.4805039500001,Sanak,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
+-160.49809006,55.34090243,Sand Point,1st Class City,Community,Aleutians East Borough,648,No,Yes,No,Yes
+-170.4840268,63.6929776000001,Savoonga,2nd Class City,Community,Nome Census Area,810,No,Yes,No,Yes
+-131.59761777,55.3189242300001,Saxman,2nd Class City,Community,Ketchikan Gateway Borough,346,No,No,No,Yes
+-165.58157216,61.8428100100001,Scammon Bay,2nd Class City,Community,Kusilvak Census Area,577,No,Yes,No,Yes
+-160.01011021,66.60439151,Selawik,2nd Class City,Community,Northwest Arctic Borough,780,No,Yes,No,Yes
+-151.71857386,59.44059723,Seldovia,1st Class City,Community,Kenai Peninsula Borough,258,No,Yes,No,No
+-151.64995402,59.4743452800001,Seldovia Village,CDP,Community,Kenai Peninsula Borough,201,No,Yes,No,No
+-149.43922421,60.10312795,Seward,Home Rule City,Community,Kenai Peninsula Borough,2603,Yes,No,No,No
+-159.53059767,62.6553703500001,Shageluk,2nd Class City,Community,Yukon-Koyukuk Census Area,100,No,Yes,No,Yes
+-133.57130446,56.1508274600001,Shakan Bay,Unincorporated,Place of Interest,Prince of Wales-Hyder Census Area,0,No,No,No,No
+-161.19435626,64.3545557,Shaktoolik,2nd Class City,Community,Nome Census Area,214,No,Yes,No,Yes
+-166.07076445,66.25510533,Shishmaref,2nd Class City,Community,Nome Census Area,581,No,Yes,No,Yes
+-157.13819049,66.8880443,Shungnak,2nd Class City,Community,Northwest Arctic Borough,244,No,Yes,No,Yes
+-145.33214976,62.0110652400001,Silver Springs,Unincorporated CDP,Community,Copper River Census Area,104,Yes,Yes,No,No
+-135.33862304,57.0490212600001,Sitka,Unified Home Rule Borough,Community,City and Borough of Sitka,8387,No,Yes,Yes,No
+-151.20133552,61.9677230600001,Skwentna,CDP,Place of Interest,Matanuska-Susitna Borough,60,No,Yes,No,No
+-143.96993915,62.7065704,Slana,Unincorporated CDP,Community,Copper River Census Area,105,Yes,Yes,No,No
+-157.17040975,61.7026823800001,Sleetmute,Unincorporated CDP,Community,Bethel Census Area,89,No,Yes,No,Yes
+-151.06585198,60.4904472100001,Soldotna,Home Rule City,Community,Kenai Peninsula Borough,4449,Yes,No,No,No
+-164.44162838,64.5605626500001,Solomon,Unincorporated,Place of Interest,Nome Census Area,1,No,Yes,No,No
+-149.315544,61.5875610000001,South Lakes,CDP,Place of Interest,Matanuska-Susitna Borough,5173,Yes,No,No,No
+-157.00692435,58.71326678,South Naknek,CDP,Community,Bristol Bay Borough,61,No,Yes,Yes,Yes
+-147.75923942,64.81107438,South Van Horn,CDP,Place of Interest,Fairbanks North Star Borough,512,Yes,Yes,No,No
+-160.55117694,55.2413504,Squaw Harbor,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
+-162.2914977,63.52380972,Stebbins,2nd Class City,Community,Nome Census Area,622,No,Yes,No,Yes
+-147.48814616,64.8923484100001,Steele Creek,CDP,Place of Interest,Fairbanks North Star Borough,6381,Yes,Yes,No,No
+-150.79703641,60.5370290800001,Sterling,CDP,Community,Kenai Peninsula Borough,5998,Yes,No,No,No
 -149.08443821,66.00452448,Stevens Village,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,48,No,Yes,No,Yes
 -156.58825541,61.7871601300001,Stony River,Unincorporated CDP,Community,Bethel Census Area,51,No,Yes,No,Yes
--158.72493203,64.3265639300001,Kaltag,2nd Class City,Community,Yukon-Koyukuk Census Area,149,No,Yes,No,Yes
--152.0777034,65.17118315,Tanana,1st Class City,Community,Yukon-Koyukuk Census Area,231,No,Yes,No,Yes
--161.19435626,64.3545557,Shaktoolik,2nd Class City,Community,Nome Census Area,214,No,Yes,No,Yes
--156.87712316,64.7426528600001,Galena,1st Class City,Community,Yukon-Koyukuk Census Area,476,No,Yes,No,Yes
--156.52113197,63.14397275,Ophir,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,No,No,No,No
--156.88237275,66.9077009200001,Kobuk,2nd Class City,Community,Northwest Arctic Borough,183,No,Yes,No,Yes
--132.8235136,55.2059259000001,Hydaburg,1st Class City,Community,Prince of Wales-Hyder Census Area,376,No,Yes,Yes,Yes
--146.77891647,61.9898422000001,Nelchina,Unincorporated CDP,Community,Copper River Census Area,46,Yes,Yes,No,No
--133.12206307,56.11714153,Whale Pass,2nd Class City,Community,Prince of Wales-Hyder Census Area,84,No,Yes,No,No
--150.11199934,62.32317025,Talkeetna,CDP,Community,Matanuska-Susitna Borough,1066,Yes,No,No,No
--161.43754673,60.81122837,Kwethluk,2nd Class City,Community,Bethel Census Area,799,No,Yes,No,Yes
--162.88706395,59.9594387400001,Kongiganak,Unincorporated CDP,Community,Bethel Census Area,494,No,Yes,No,Yes
--166.09643323,61.5308796900001,Hooper Bay,2nd Class City,Community,Kusilvak Census Area,1330,No,Yes,No,Yes
--147.08105662,64.6701432,Eielson AFB,CDP,Place of Interest,Fairbanks North Star Borough,3194,Yes,No,No,No
--164.62941623,60.93686382,Newtok,Unincorporated CDP,Community,Bethel Census Area,193,No,Yes,No,Yes
--160.01011021,66.60439151,Selawik,2nd Class City,Community,Northwest Arctic Borough,780,No,Yes,No,Yes
--161.20184982,56.0012060400001,Nelson Lagoon,CDP,Community,Aleutians East Borough,33,No,Yes,No,Yes
--150.63716518,64.9958868300001,Manley Hot Springs,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,98,Yes,Yes,No,Yes
--161.44909474,60.91380831,Akiachak,Unincorporated CDP,Community,Bethel Census Area,660,No,Yes,No,Yes
--161.58225677,59.1182251700001,Goodnews Bay,2nd Class City,Community,Bethel Census Area,249,No,Yes,No,Yes
--149.36827705,60.4864352800001,Moose Pass,CDP,Community,Kenai Peninsula Borough,232,Yes,No,No,No
--151.64995402,59.4743452800001,Seldovia Village,CDP,Community,Kenai Peninsula Borough,201,No,Yes,No,No
--152.77029002,58.0069396100001,Afognak,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
--149.14533535,61.64000731,Farm Loop,CDP,Place of Interest,Matanuska-Susitna Borough,2748,Yes,Yes,No,No
--151.04303622,61.1721485100001,Beluga,CDP,Place of Interest,Kenai Peninsula Borough,35,No,Yes,No,No
--161.32349606,61.78384234,Russian Mission,2nd Class City,Community,Kusilvak Census Area,420,No,Yes,No,Yes
--133.60721671,56.3223510700001,Port Protection,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,35,No,Yes,No,No
--160.28060728,59.07512832,Twin Hills,Unincorporated CDP,Community,Dillingham Census Area,85,No,Yes,Yes,Yes
--134.40087082,58.2791882700001,Douglas,Locality,Place of Interest,City and Borough of Juneau,5573,No,No,No,No
--150.79703641,60.5370290800001,Sterling,CDP,Community,Kenai Peninsula Borough,5998,Yes,No,No,No
--151.71857386,59.44059723,Seldovia,1st Class City,Community,Kenai Peninsula Borough,258,No,Yes,No,No
--149.11775808,61.5997057600001,Palmer,Home Rule City,Community,Matanuska-Susitna Borough,5932,Yes,No,No,No
--153.42115679,57.68276073,Uganik,Locality,Place of Interest,Kodiak Island Borough,0,,No,Yes,No
--146.5383,62.0494,Mendeltna,Unincorporated CDP,Community,Copper River Census Area,38,Yes,Yes,No,No
--149.62222901,60.91793289,Hope,CDP,Community,Kenai Peninsula Borough,153,Yes,No,No,No
--145.73666819,64.04716726,Delta Junction,2nd Class City,Community,Southeast Fairbanks Census Area,925,Yes,No,No,No
--144.63907262,65.4830449,Circle Hot Springs,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,Yes,No,No,No
--164.50713521,60.8188798400001,Mertarvik,Unincorporated CDP,Place of Interest,Bethel Census Area,71,No,Yes,No,No
--145.72394043,63.9918179900001,Fort Greely,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,363,Yes,No,No,No
--149.44420328,61.58209845,Wasilla,1st Class City,Community,Matanuska-Susitna Borough,9227,Yes,No,No,No
--151.14339542,61.06808705,Tyonek,CDP,Community,Kenai Peninsula Borough,151,No,Yes,No,Yes
--151.91992102,59.3544344900001,Nanwalek,CDP,Community,Kenai Peninsula Borough,244,No,Yes,No,Yes
--141.93364877,64.0726259100001,Chicken,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,12,Yes,Yes,No,No
--149.01110337,61.69132433,Buffalo Soapstone,CDP,Community,Matanuska-Susitna Borough,1042,Yes,Yes,No,No
--151.5575,59.6761111000001,Diamond Ridge,CDP,Community,Kenai Peninsula Borough,1336,Yes,Yes,No,No
--164.28034055,60.1580149500001,Chefornak,2nd Class City,Community,Bethel Census Area,504,No,Yes,No,Yes
--164.66754759,62.6869771400001,Alakanuk,2nd Class City,Community,Kusilvak Census Area,737,No,Yes,No,Yes
--148.8773404,61.7095915900001,Sutton-Alpine,CDP,Community,Matanuska-Susitna Borough,1024,Yes,Yes,No,No
--151.29865991,59.7254375000001,Fritz Creek,CDP,Community,Kenai Peninsula Borough,2282,Yes,No,No,No
--176.64029588,51.86824598,Adak Station,Unincorporated,Place of Interest,Aleutians West Census Area,0,No,No,No,No
--163.17516104,62.0514716000001,Saint Mary's,1st Class City,Community,Kusilvak Census Area,593,No,Yes,No,Yes
--154.9061,59.7547000000001,Iliamna,CDP,Community,Lake and Peninsula Borough,112,No,Yes,No,Yes
--150.99901621,70.21731414,Nuiqsut,2nd Class City,Community,North Slope Borough,525,No,Yes,No,Yes
--134.7336438,57.94151874,Cube Cove,Unincorporated,Place of Interest,Hoonah-Angoon Census Area,0,No,Yes,No,No
--144.82193545,65.57070889,Central,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,64,Yes,Yes,Yes,No
--164.85200389,62.5310651300001,Nunam Iqua,2nd Class City,Community,Kusilvak Census Area,216,No,Yes,No,Yes
--165.19426449,60.4979951400001,Umkumiute,Unincorporated,Place of Interest,Bethel Census Area,0,No,Yes,No,No
--147.97679327,64.85543162,Ester,CDP,Community,Fairbanks North Star Borough,2516,Yes,No,No,No
--161.9006125,59.7514267400001,Quinhagak,2nd Class City,Community,Bethel Census Area,744,No,Yes,No,Yes
--157.28569589,59.7264073700001,Koliganek,Unincorporated CDP,Community,Dillingham Census Area,176,No,Yes,Yes,Yes
--157.13819049,66.8880443,Shungnak,2nd Class City,Community,Northwest Arctic Borough,244,No,Yes,No,Yes
--150.04551523,61.7440144400001,Willow,CDP,Community,Matanuska-Susitna Borough,2278,Yes,No,No,No
--159.24202177,61.57491472,Chuathbaluk,2nd Class City,Community,Bethel Census Area,93,No,Yes,No,Yes
--163.8941667,62.8961111,Hamilton,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
--157.70270185,64.8817887800001,Koyukuk,2nd Class City,Community,Yukon-Koyukuk Census Area,94,No,Yes,No,Yes
--151.73586607,68.1418507700001,Anaktuvuk Pass,2nd Class City,Community,North Slope Borough,410,No,Yes,No,Yes
--154.17324554,56.9468146400001,Akhiok,2nd Class City,Community,Kodiak Island Borough,58,No,Yes,Yes,Yes
--166.73427192,68.34808223,Point Hope,2nd Class City,Community,North Slope Borough,879,No,Yes,No,Yes
--161.77136517,60.7226475400001,Oscarville,Unincorporated CDP,Community,Bethel Census Area,75,No,Yes,No,Yes
--151.73800293,59.93501064,Happy Valley,CDP,Community,Kenai Peninsula Borough,695,Yes,Yes,No,No
--145.30187315,62.3018968100001,Gakona,Unincorporated CDP,Community,Copper River Census Area,179,Yes,Yes,No,No
--142.03526376,62.05966564,Chisana,Unincorporated CDP,Place of Interest,Copper River Census Area,0,No,Yes,Yes,No
--150.76790264,62.4964964500001,Petersville,CDP,Community,Matanuska-Susitna Borough,28,Yes,Yes,No,No
--164.03794006,59.9363864000001,Kipnuk,Unincorporated CDP,Community,Bethel Census Area,712,No,Yes,No,Yes
--148.9852036,60.8320999700001,Portage,Locality,Place of Interest,Municipality of Anchorage,0,Yes,No,No,No
--133.65815775,55.9551227100001,Edna Bay,2nd Class City,Community,Prince of Wales-Hyder Census Area,49,No,Yes,No,No
--153.28367127,57.21341891,Old Harbor,2nd Class City,Community,Kodiak Island Borough,210,No,Yes,No,Yes
--160.95646047,61.09868491,Tuluksak,Unincorporated CDP,Community,Bethel Census Area,424,No,Yes,No,Yes
--154.74918539,59.4400057400001,Kokhanok,CDP,Community,Lake and Peninsula Borough,139,No,Yes,No,Yes
--151.83401493,59.7764369000001,Anchor Point,CDP,Community,Kenai Peninsula Borough,2148,Yes,No,No,No
--157.57733276,57.5642993500001,Pilot Point,2nd Class City,Community,Lake and Peninsula Borough,59,No,Yes,Yes,Yes
--135.33862304,57.0490212600001,Sitka,Unified Home Rule Borough,Community,City and Borough of Sitka,8387,No,Yes,Yes,No
--154.69920739,63.1054040400001,Medfra,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,0,,No,No,No
--143.96993915,62.7065704,Slana,Unincorporated CDP,Community,Copper River Census Area,105,Yes,Yes,No,No
--144.69818393,63.99574441,Healy Lake,Unincorporated CDP,Community,Southeast Fairbanks Census Area,24,No,Yes,Yes,Yes
--150.63388448,61.49836623,Susitna,CDP,Community,Matanuska-Susitna Borough,10,No,Yes,No,No
--151.67510116,60.04305213,Ninilchik,CDP,Community,Kenai Peninsula Borough,844,Yes,No,No,Yes
--161.75319706,60.7082335600001,Napaskiak,2nd Class City,Community,Bethel Census Area,487,No,Yes,No,Yes
--136.3454861,58.19391484,Elfin Cove,Unincorporated CDP,Community,Hoonah-Angoon Census Area,32,No,Yes,Yes,No
--144.04934005,63.65559219,Dot Lake Village,Unincorporated CDP,Place of Interest,Southeast Fairbanks Census Area,44,Yes,Yes,No,Yes
--157.17040975,61.7026823800001,Sleetmute,Unincorporated CDP,Community,Bethel Census Area,89,No,Yes,No,Yes
--149.43922421,60.10312795,Seward,Home Rule City,Community,Kenai Peninsula Borough,2603,Yes,No,No,No
--149.38484824,61.61025377,Tanaina,CDP,Place of Interest,Matanuska-Susitna Borough,8826,Yes,Yes,No,No
--165.06382026,65.1473228300001,Mary's Igloo,Unincorporated,Place of Interest,Nome Census Area,1,No,Yes,No,No
--151.07407142,59.7946689300001,Kachemak Selo,Locality,Community,Kenai Peninsula Borough,0,Yes,No,No,No
--160.57551861,55.98767639,Port Moller,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
--133.15108263,55.4760442100001,Craig,1st Class City,Community,Prince of Wales-Hyder Census Area,969,No,Yes,No,Yes
--147.6183,64.9581000000001,Fox,CDP,Community,Fairbanks North Star Borough,418,Yes,No,No,No
--149.310724,61.6183780000001,North Lakes,CDP,Place of Interest,Matanuska-Susitna Borough,9733,Yes,No,No,No
--135.50986598,58.0558686300001,Game Creek,Unincorporated CDP,Place of Interest,Hoonah-Angoon Census Area,19,No,Yes,No,No
--149.19051194,64.2554297,Clear,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
--143.35599738,63.3762792000001,Tanacross,Unincorporated CDP,Community,Southeast Fairbanks Census Area,138,Yes,Yes,No,Yes
--160.37879111,59.0605115000001,Togiak,2nd Class City,Community,Dillingham Census Area,807,No,Yes,No,Yes
-173.17080016,52.82597479,Attu Station,Unincorporated CDP,Place of Interest,Aleutians West Census Area,0,No,Yes,No,No
--150.2337668,62.31623367,Trapper Creek,CDP,Community,Matanuska-Susitna Borough,497,Yes,No,No,No
--161.77177087,60.7911992000001,Bethel,2nd Class City,Community,Bethel Census Area,6362,No,No,No,Yes
--141.04578638,64.74518901,Eagle Village,Unincorporated CDP,Community,Southeast Fairbanks Census Area,49,Yes,Yes,No,No
--163.41473878,54.8550308600001,False Pass,2nd Class City,Community,Aleutians East Borough,397,No,Yes,Yes,Yes
--168.95179186,65.7583525100001,Diomede,2nd Class City,Community,Nome Census Area,85,No,Yes,Yes,Yes
--145.33214976,62.0110652400001,Silver Springs,Unincorporated CDP,Community,Copper River Census Area,104,Yes,Yes,No,No
--147.62855218,65.1227222900001,Haystack,Locality,Community,Fairbanks North Star Borough,0,,No,No,No
--149.24867697,61.6932211800001,Fishhook,CDP,Community,Matanuska-Susitna Borough,5216,Yes,No,No,No
--152.58367032,58.4904418200001,Port William,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
--145.37187803,62.26858008,Gulkana,Unincorporated CDP,Community,Copper River Census Area,90,Yes,Yes,Yes,Yes
--157.71981375,58.9051910300001,Portage Creek,Unincorporated CDP,Place of Interest,Dillingham Census Area,4,No,Yes,No,Yes
--170.4840268,63.6929776000001,Savoonga,2nd Class City,Community,Nome Census Area,810,No,Yes,No,Yes
--151.53782894,59.46585407,Jakolof Bay,Locality,Place of Interest,Kenai Peninsula Borough,0,No,No,No,No
--144.60181163,63.67518647,Dry Creek,Unincorporated CDP,Community,Southeast Fairbanks Census Area,58,Yes,Yes,No,No
--162.26450688,64.61655211,Elim,2nd Class City,Community,Nome Census Area,345,No,Yes,No,Yes
--159.48416326,55.9034342200001,Ivanof Bay,CDP,Place of Interest,Lake and Peninsula Borough,1,No,Yes,No,Yes
--166.07076445,66.25510533,Shishmaref,2nd Class City,Community,Nome Census Area,581,No,Yes,No,Yes
--150.18959842,67.25623468,Coldfoot,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,28,Yes,Yes,No,No
 -149.42613053,60.88404712,Sunrise,CDP,Place of Interest,Kenai Peninsula Borough,14,Yes,Yes,No,No
--166.4922015,65.3344880500001,Brevig Mission,2nd Class City,Community,Nome Census Area,414,No,Yes,No,Yes
--135.44570828,58.10953807,Hoonah,1st Class City,Community,Hoonah-Angoon Census Area,902,No,Yes,No,Yes
--155.48894931,64.7392281,Ruby,2nd Class City,Community,Yukon-Koyukuk Census Area,141,No,Yes,No,Yes
--148.68597259,60.7722882300001,Whittier,2nd Class City,Community,Chugach Census Area,260,Yes,Yes,No,No
--156.03611361,57.5677538,Kanatak,Locality,Place of Interest,Bristol Bay Borough,0,No,Yes,No,No
--160.1993288,62.65252995,Anvik,2nd Class City,Community,Yukon-Koyukuk Census Area,61,No,Yes,No,Yes
--162.85415523,68.07171169,Red Dog Mine,CDP,Place of Interest,Northwest Arctic Borough,5,No,Yes,No,No
--131.57330705,55.1260739100001,Metlakatla,Indian reservation organized under federal law,Community,Prince of Wales-Hyder Census Area,1403,No,Yes,No,No
--145.24128376,66.5661669,Fort Yukon,2nd Class City,Community,Yukon-Koyukuk Census Area,508,No,Yes,No,Yes
--133.20267814,55.86896699,Naukati Bay,Unincorporated CDP,Community,Prince of Wales-Hyder Census Area,137,No,Yes,No,No
--162.67635558,60.3427841600001,Tuntutuliak,Unincorporated CDP,Community,Bethel Census Area,485,No,Yes,No,Yes
--146.58825648,62.29986189,Lake Louise,CDP,Community,Matanuska-Susitna Borough,35,Yes,Yes,No,No
--151.08107415,60.53130471,Ridgeway,CDP,Community,Kenai Peninsula Borough,2073,Yes,Yes,No,No
--150.91597622,59.8535156300001,Fox River,CDP,Place of Interest,Kenai Peninsula Borough,641,Yes,Yes,No,No
--149.807094,61.2570600000001,Joint Base Elmendorf-Richardson,Locality,Place of Interest,Municipality of Anchorage,4657,Yes,No,No,No
--168.05495062,64.9610826800001,King Island,Unincorporated,Place of Interest,Nome Census Area,0,No,Yes,No,No
--164.72996641,60.4799803000001,Nightmute,2nd Class City,Community,Bethel Census Area,304,No,Yes,No,Yes
--148.89538626,63.39242527,Cantwell,CDP,Community,Denali Borough,196,Yes,Yes,No,Yes
--145.3053,61.955,Copper Center,Unincorporated CDP,Community,Copper River Census Area,320,Yes,Yes,No,No
--149.40230311,60.1685445700001,Bear Creek,CDP,Community,Kenai Peninsula Borough,2067,Yes,Yes,No,No
--143.7278962,66.65040098,Chalkyitsik,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,52,No,Yes,No,Yes
--158.41415576,56.3012632000001,Chignik,2nd Class City,Community,Lake and Peninsula Borough,84,No,Yes,Yes,Yes
--155.90354017,59.32534731,Igiugig,CDP,Community,Lake and Peninsula Borough,61,No,Yes,Yes,Yes
--145.1850849,61.7999571,Willow Creek,Unincorporated CDP,Place of Interest,Copper River Census Area,190,Yes,Yes,No,No
--135.5462038,59.31301367,Lutak,CDP,Place of Interest,Haines Borough,65,Yes,Yes,No,No
--161.12902024,65.9776538400001,Buckland,2nd Class City,Community,Northwest Arctic Borough,573,No,Yes,No,Yes
--147.6436527,64.8278334500001,Fort Wainwright,Locality,Place of Interest,Fairbanks North Star Borough,11213,Yes,No,No,No
--159.52759488,61.5787638800001,Aniak,2nd Class City,Community,Bethel Census Area,494,No,Yes,No,Yes
--147.76059729,64.8898107300001,Farmers Loop,CDP,Place of Interest,Fairbanks North Star Borough,4681,Yes,Yes,No,No
--149.04599844,61.6283302300001,Lazy Mountain,CDP,Community,Matanuska-Susitna Borough,1572,Yes,No,No,No
--146.97720965,64.48242457,Salcha,CDP,Community,Fairbanks North Star Borough,983,Yes,No,No,No
--163.77834136,62.9503685000001,Bill Moore's Slough,Unincorporated,Place of Interest,Kusilvak Census Area,0,No,Yes,No,No
--148.47881249,61.79624012,Chickaloon,CDP,Community,Matanuska-Susitna Borough,257,Yes,No,No,No
--164.5399655,67.7273868300001,Kivalina,2nd Class City,Community,Northwest Arctic Borough,444,No,Yes,No,Yes
--154.32808373,60.19602229,Port Alsworth,CDP,Community,Lake and Peninsula Borough,181,No,Yes,No,No
--146.85516397,64.8777178500001,Pleasant Valley,CDP,Community,Fairbanks North Star Borough,599,Yes,Yes,No,No
--158.61901559,56.93007699,Port Heiden,2nd Class City,Community,Lake and Peninsula Borough,91,No,Yes,Yes,Yes
--149.1179,64.6003000000001,Four Mile Road,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,32,Yes,Yes,No,No
--166.84951599,65.2618559900001,Port Clarence,Unincorporated CDP,Place of Interest,Nome Census Area,0,No,Yes,No,No
--146.59929367,64.37150719,Harding-Birch Lakes,CDP,Place of Interest,Fairbanks North Star Borough,265,Yes,Yes,No,No
--148.01234038,60.0655963200001,Chenega,Unincorporated CDP,Community,Chugach Census Area,65,No,Yes,No,Yes
--156.85750185,59.11246319,Levelock,CDP,Community,Lake and Peninsula Borough,65,No,Yes,Yes,Yes
--162.81368155,54.4805039500001,Sanak,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
--160.55117694,55.2413504,Squaw Harbor,Locality,Place of Interest,Aleutians East Borough,0,No,No,No,No
--165.58157216,61.8428100100001,Scammon Bay,2nd Class City,Community,Kusilvak Census Area,577,No,Yes,No,Yes
--171.71882642,63.7768845400001,Gambell,2nd Class City,Community,Nome Census Area,620,No,Yes,No,Yes
--144.44111788,61.5164902700001,Chitina,Unincorporated CDP,Community,Copper River Census Area,97,Yes,Yes,Yes,No
--149.03543549,61.54162777,Butte,CDP,Community,Matanuska-Susitna Borough,3545,Yes,No,No,No
--165.10723428,60.52954536,Toksook Bay,2nd Class City,Community,Bethel Census Area,612,No,Yes,No,Yes
--149.23996944,61.5740853200001,Gateway,CDP,Community,Matanuska-Susitna Borough,5905,Yes,Yes,No,No
+-148.84811376,63.85383025,Suntrana,Locality,Place of Interest,Denali Borough,0,Yes,No,No,No
+-150.63388448,61.49836623,Susitna,CDP,Community,Matanuska-Susitna Borough,10,No,Yes,No,No
+-150.04359382,62.1312135000001,Susitna North,CDP,Place of Interest,Matanuska-Susitna Borough,1598,Yes,Yes,No,No
+-148.8773404,61.7095915900001,Sutton-Alpine,CDP,Community,Matanuska-Susitna Borough,1024,Yes,Yes,No,No
+-156.06195251,62.9879595200001,Takotna,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,56,No,Yes,No,Yes
+-150.11199934,62.32317025,Talkeetna,CDP,Community,Matanuska-Susitna Borough,1066,Yes,No,No,No
+-143.35599738,63.3762792000001,Tanacross,Unincorporated CDP,Community,Southeast Fairbanks Census Area,138,Yes,Yes,No,Yes
+-149.38484824,61.61025377,Tanaina,CDP,Place of Interest,Matanuska-Susitna Borough,8826,Yes,Yes,No,No
+-152.0777034,65.17118315,Tanana,1st Class City,Community,Yukon-Koyukuk Census Area,231,No,Yes,No,Yes
+-146.68172131,60.86848502,Tatitlek,Unincorporated CDP,Community,Chugach Census Area,81,No,Yes,Yes,Yes
+-145.4120642,62.0473811800001,Tazlina,Unincorporated CDP,Community,Copper River Census Area,248,Yes,Yes,No,Yes
+-153.2794001,63.38388646,Telida,Unincorporated,Place of Interest,Yukon-Koyukuk Census Area,3,No,Yes,No,No
+-166.36520237,65.2629568300001,Teller,2nd Class City,Community,Nome Census Area,250,No,Yes,No,Yes
+-135.22829141,57.7810313900001,Tenakee Springs,2nd Class City,Community,Hoonah-Angoon Census Area,122,No,Yes,No,No
+-142.51969925,63.13803253,Tetlin,Unincorporated CDP,Community,Southeast Fairbanks Census Area,133,Yes,Yes,No,Yes
 -134.32469777,58.26059675,Thane,Locality,Place of Interest,City and Borough of Juneau,0,No,No,No,No
+-132.52282231,55.6854862600001,Thorne Bay,2nd Class City,Community,Prince of Wales-Hyder Census Area,456,No,Yes,No,No
+-160.37879111,59.0605115000001,Togiak,2nd Class City,Community,Dillingham Census Area,807,No,Yes,No,Yes
+-142.98776188,63.3358964400001,Tok,Unincorporated CDP,Community,Southeast Fairbanks Census Area,1263,Yes,Yes,No,No
+-165.10723428,60.52954536,Toksook Bay,2nd Class City,Community,Bethel Census Area,612,No,Yes,No,Yes
+-146.11291342,62.09714581,Tolsona,Unincorporated CDP,Community,Copper River Census Area,29,Yes,Yes,No,No
+-145.17965735,61.66126868,Tonsina,Unincorporated CDP,Place of Interest,Copper River Census Area,53,Yes,Yes,No,No
+-150.2337668,62.31623367,Trapper Creek,CDP,Community,Matanuska-Susitna Borough,497,Yes,No,No,No
+-160.95646047,61.09868491,Tuluksak,Unincorporated CDP,Community,Bethel Census Area,424,No,Yes,No,Yes
+-162.67635558,60.3427841600001,Tuntutuliak,Unincorporated CDP,Community,Bethel Census Area,485,No,Yes,No,Yes
+-165.2513918,60.5861689800001,Tununak,Unincorporated CDP,Community,Bethel Census Area,396,No,Yes,No,Yes
+-160.28060728,59.07512832,Twin Hills,Unincorporated CDP,Community,Dillingham Census Area,85,No,Yes,Yes,Yes
+-147.03838828,64.8772855300001,Two Rivers,CDP,Community,Fairbanks North Star Borough,667,Yes,No,No,No
+-151.14339542,61.06808705,Tyonek,CDP,Community,Kenai Peninsula Borough,151,No,Yes,No,Yes
+-153.42115679,57.68276073,Uganik,Locality,Place of Interest,Kodiak Island Borough,0,,No,Yes,No
+-157.399544,57.51228753,Ugashik,CDP,Place of Interest,Lake and Peninsula Borough,3,No,Yes,Yes,No
+-152.13983366,69.37131343,Umiat,Locality,Place of Interest,North Slope Borough,0,No,No,No,No
+-165.19426449,60.4979951400001,Umkumiute,Unincorporated,Place of Interest,Bethel Census Area,0,No,Yes,No,No
+-160.79196516,63.87663037,Unalakleet,2nd Class City,Community,Nome Census Area,734,No,Yes,No,Yes
+-166.53768178,53.8730924600001,Unalaska,1st Class City,Community,Aleutians West Census Area,4195,No,Yes,No,No
+-160.5064,55.1828,Unga,Locality,Place of Interest,Aleutians East Borough,0,No,Yes,No,No
+-160.31576292,61.5381853700001,Upper Kalskag,2nd Class City,Community,Bethel Census Area,203,No,Yes,No,Yes
+-156.76100969,71.2893977300001,Utqiagvik,1st Class City,Community,North Slope Borough,4877,No,Yes,No,Yes
+-154.00163761,57.6368061800001,Uyak,Locality,Place of Interest,Kodiak Island Borough,1,No,No,No,No
+-146.35508078,61.13023788,Valdez,Home Rule City,Community,Chugach Census Area,3971,Yes,No,No,No
+-146.4218093,67.0167170700001,Venetie,Unincorporated CDP,Community,Yukon-Koyukuk Census Area,185,No,Yes,No,Yes
+-151.09658113,59.7942847800001,Voznesenka Village,Locality,Community,Kenai Peninsula Borough,0,Yes,Yes,No,No
+-160.03223052,70.63853949,Wainwright,2nd Class City,Community,North Slope Borough,638,No,Yes,No,Yes
 -168.09126024,65.60901955,Wales,2nd Class City,Community,Nome Census Area,142,No,Yes,No,Yes
--149.00584489,63.8703844300001,Healy,CDP,Community,Denali Borough,942,Yes,No,No,No
--131.59761777,55.3189242300001,Saxman,2nd Class City,Community,Ketchikan Gateway Borough,346,No,No,No,Yes
+-149.44420328,61.58209845,Wasilla,1st Class City,Community,Matanuska-Susitna Borough,9227,Yes,No,No,No
+-133.12206307,56.11714153,Whale Pass,2nd Class City,Community,Prince of Wales-Hyder Census Area,84,No,Yes,No,No
+-163.41049001,64.68127766,White Mountain,2nd Class City,Community,Nome Census Area,189,No,Yes,No,Yes
+-145.89544905,64.1513819800001,Whitestone,Unincorporated CDP,Community,Southeast Fairbanks Census Area,141,No,Yes,No,No
+-135.44221048,58.08906326,Whitestone Logging Camp,Unincorporated CDP,Place of Interest,Hoonah-Angoon Census Area,2,No,Yes,No,No
+-148.68597259,60.7722882300001,Whittier,2nd Class City,Community,Chugach Census Area,260,Yes,Yes,No,No
+-150.04551523,61.7440144400001,Willow,CDP,Community,Matanuska-Susitna Borough,2278,Yes,No,No,No
+-145.1850849,61.7999571,Willow Creek,Unincorporated CDP,Place of Interest,Copper River Census Area,190,Yes,Yes,No,No
+-150.1075,67.4100000000001,Wiseman,Unincorporated CDP,Place of Interest,Yukon-Koyukuk Census Area,5,Yes,Yes,No,No
 -152.58227229,57.7055350000001,Womens Bay,CDP,Place of Interest,Kodiak Island Borough,736,No,No,No,No
--150.7622222,60.5019444000001,Funny River,CDP,Community,Kenai Peninsula Borough,1110,Yes,Yes,No,No
+-152.35739943,57.7792462300001,Woody Island,Locality,Place of Interest,Kodiak Island Borough,0,No,Yes,No,No
+-132.3836088,56.470404,Wrangell,Unified Home Rule Borough,Community,City and Borough of Wrangell,2096,No,Yes,Yes,No
+-139.75003244,59.5587609,Yakutat,Non-Unified Home Rule Borough,Community,City and Borough of Yakutat,697,No,Yes,Yes,Yes

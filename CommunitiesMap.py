@@ -8,6 +8,10 @@ from dotenv import load_dotenv
 # Import CSV Data
 df = pd.read_csv('data/Communities.csv')
 comms = df['Community'].unique()
+essential_air_service_comms = df[df['Essential_Air_Service'] == 'Yes']['Community'].unique()
+subsistence_use_comms = df[df['Subsistence_Use'] == 'Yes']['Community'].unique()
+environmental_threat_comms = df[df['Environmentally_Threatened'] == 'Yes']['Community'].unique()
+road_connection_comms = df[df['Road_Connection'].notnull()]['Community'].unique()
 
 # Mapbox Access Key
 load_dotenv()
@@ -33,7 +37,7 @@ app.layout = html.Div([
             {'label': 'Road System Connection', 'value': 'Road_Connection'}
         ],
         value='Community',  # Set as Default Selection
-        style={'fontSize': 20,'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold'},
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold'},
         searchable=False,
         multi=False
     ),
@@ -42,6 +46,50 @@ app.layout = html.Div([
     dcc.Dropdown(
         id='search',
         options=[{'label': comm, 'value': comm} for comm in comms],
+        placeholder='— Filter by Community —',
+        value=None,  # Set as Default Selection
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px'},
+        searchable=True,
+        multi=True
+    ),
+
+    dcc.Dropdown(
+        id='EASsearch',
+        options=[{'label': comm, 'value': comm} for comm in essential_air_service_comms],
+        placeholder='— Filter by Community —',
+        value=None,  # Set as Default Selection
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px'},
+        searchable=True,
+        multi=True
+    ),
+
+    dcc.Dropdown(
+        id='SUCsearch',
+        options=[{'label': comm, 'value': comm} for comm in subsistence_use_comms],
+        placeholder='— Filter by Community —',
+        value=None,  # Set as Default Selection
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px'},
+        searchable=True,
+        multi=True
+    ),
+
+    dcc.Dropdown(
+        id='ETCsearch',
+        options=[{'label': comm, 'value': comm} for comm in environmental_threat_comms],
+        placeholder='— Filter by Community —',
+        value=None,  # Set as Default Selection
+        style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px'},
+        searchable=True,
+        multi=True
+    ),
+
+    dcc.Dropdown(
+        id='RCsearch',
+        options=[{'label': comm, 'value': comm} for comm in road_connection_comms],
         placeholder='— Filter by Community —',
         value=None,  # Set as Default Selection
         style={'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
@@ -66,21 +114,68 @@ app.layout = html.Div([
 ])
 
 
-# @app.callback(
-#     [dash.dependencies.Output('search', 'options')],
-#     [dash.dependencies.Input('category-dropdown', 'value')]
-# )
-def update_search(selected_category):
-    print(selected_category)
-    if selected_category in ['Subsistence_Use', 'Essential_Air_Service']:
-        filter_list = df[df[selected_category] == 'Yes']
-    elif selected_category == 'Environmentally_Threatened':
-        filter_list = pd.read_csv('data/ThreatenedComms.csv')
+@app.callback(
+   dash.dependencies.Output(component_id='search', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(community):
+    if community == 'Essential_Air_Service' \
+            or community == 'Subsistence_Use' \
+            or community == 'Environmentally_Threatened' \
+            or community == 'Road_Connection':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+               'margin-top': '5px', 'display': 'none'}
     else:
-        filter_list = df
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
 
-    return [{'label': comm, 'value': comm} for comm in filter_list]
+@app.callback(
+   dash.dependencies.Output(component_id='EASsearch', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(community):
+    if community == 'Essential_Air_Service':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'none'}
 
+@app.callback(
+   dash.dependencies.Output(component_id='SUCsearch', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(community):
+    if community == 'Subsistence_Use':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'none'}
+
+@app.callback(
+   dash.dependencies.Output(component_id='ETCsearch', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(community):
+    if community == 'Environmentally_Threatened':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'none'}
+
+@app.callback(
+   dash.dependencies.Output(component_id='RCsearch', component_property='style'),
+   [dash.dependencies.Input(component_id='category-dropdown', component_property='value')]
+)
+def show_hide_element(community):
+    if community == 'Road_Connection':
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'block'}
+    else:
+        return {'fontSize': 20, 'font-family': 'Optima', 'text-align': 'center', 'font-weight': 'bold',
+                'margin-top': '5px', 'display': 'none'}
 
 @app.callback(
     # Map Output
@@ -90,18 +185,14 @@ def update_search(selected_category):
      # Pie Chart Output
      dash.dependencies.Output('chart', 'figure')],
     [dash.dependencies.Input('category-dropdown', 'value'),
-     dash.dependencies.Input('search', 'value')],
+     dash.dependencies.Input('search', 'value'),
+     dash.dependencies.Input('EASsearch', 'value'),
+     dash.dependencies.Input('SUCsearch', 'value'),
+     dash.dependencies.Input('ETCsearch', 'value'),
+     dash.dependencies.Input('RCsearch', 'value')],
     prevent_initial_call=False
 )
-def update_figure(selected_category, search):
-    # if selected_category == 'Environmentally_Threatened':
-    #     print('filtered')
-    #     filter_list = df[df[selected_category] == 'Yes']
-    #     options = [{'label': comm, 'value': comm} for comm in filter_list]
-    #     return {'options': options}
-    # else:
-    #     print('not filtered')
-    #     return [{'label': comm, 'value': comm} for comm in df]
+def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RCsearch):
 
     # Paramaters for map showing all Communities
     if selected_category == 'Community':
@@ -163,10 +254,10 @@ def update_figure(selected_category, search):
             'percentages of Alaskan residents living in communities of each incorporation type (as of 2021) gathered from the \"Community Regions Overview\" table.'
 
     elif selected_category == 'Subsistence_Use':
-        if search is None or len(search) == 0:
+        if SUCsearch is None or len(SUCsearch) == 0:
             filtered_df = df[df[selected_category] == 'Yes'] # Only show communities that are subsistence use
         else:
-            filtered_df = df[df['Community'].isin(search)]
+            filtered_df = df[df['Community'].isin(SUCsearch)]
         map_style = 'satellite'
         color_scale = 'oryel'  # Continuous color scale
         pie_title = 'Percentage of State Population Living in Subsistence Use Communities (2021)'
@@ -183,7 +274,11 @@ def update_figure(selected_category, search):
             'The pie chart \"Percentage of State Population Living in Subsistence Use Communities\" below displays the percentage of Alaskans ( 2021 population) living in subsistence use communities gathered from the \"Subsistence Use Communities\" table.'
 
     elif selected_category == 'Essential_Air_Service':
-        filtered_df = df[df[selected_category] == 'Yes']  # Only show communities that are essential air service
+        if EASsearch is None or len(EASsearch) == 0:
+            filtered_df = df[df[selected_category] == 'Yes'] # Only show communities that are subsistence use
+        else:
+            filtered_df = df[df['Community'].isin(EASsearch)]
+        # filtered_df = df[df[selected_category] == 'Yes']  # Only show communities that are essential air service
         map_style = 'satellite'
         color_scale = 'oryel'  # Continuous color scale
         pie_title = 'Percentage of State Population Living in Essential Air Service Communities (2021)'
@@ -201,7 +296,12 @@ def update_figure(selected_category, search):
             'The pie chart \"Percentage of State Population Living in Essential Air Service Communities\" below displays the percentage of Alaskans living in EAS communities as of 2018 according to the \"Essential Air Service Communities\".'
 
     elif selected_category == 'Environmentally_Threatened':
-        filtered_df = pd.read_csv('data/ThreatenedComms.csv')  # Only show communities that are environmentally threatened
+        dff = pd.read_csv('data/ThreatenedComms.csv')
+        if ETCsearch is None or len(ETCsearch) == 0:
+            filtered_df = dff # Only show communities that are subsistence use
+        else:
+            filtered_df = dff[dff['Community'].isin(ETCsearch)]
+        #filtered_df = pd.read_csv('data/ThreatenedComms.csv')  # Only show communities that are environmentally threatened
         map_style = 'satellite-streets'
         color_scale = 'oryel'  # Continuous color scale
         pie_title = 'Percentage of State Population Living living in Environmentally Threatened Communities (2021)'
@@ -216,7 +316,10 @@ def update_figure(selected_category, search):
             'The pie chart \"Percentage of State Population Living living in Environmentally Threatened Communities\" below displays the percentage of Alaskans living in environmentally threatened communities as of 2020.'
 
     elif selected_category == 'Road_Connection':
-        filtered_df = df[df[selected_category].notnull()]  # Don't include any null values in Road_Connection
+        if RCsearch is None or len(RCsearch) == 0:
+            filtered_df = df[df['Road_Connection'].notnull()]
+        else:
+            filtered_df = df[df['Community'].isin(RCsearch)]
         map_style = 'satellite-streets'
         pie_title = 'Percentage of State Population With Access to the Road System (2021)'
         pie_color = {'Yes': 'Orange', 'No': 'Crimson'}
@@ -308,7 +411,7 @@ def update_figure(selected_category, search):
                                         'Road_Connection': 'Road Connection'},
                                 hover_name='Community',
                                 hover_data=['Population_2021', 'Borough_Census_Area', 'Incorporation_Type',
-                                            'Road_Connection'],
+                                            'Road_Connection', 'Essential_Air_Service'],
                                 center={'lat': 63, 'lon': -152},
                                 # size='Population_2021',
                                 size_max=30,
