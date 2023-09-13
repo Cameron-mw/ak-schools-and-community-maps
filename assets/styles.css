@@ -1,0 +1,107 @@
+.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            font-family: "Optima", sans-serif;
+            color: black;
+            font-size: 18px;
+            line-height: 1.6em;
+            text-align: left;
+            max-width: 100%;
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        .container {
+            width: 1050px;
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 50px;
+        }
+
+        p {
+            padding: 5px
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px 0; /* Adjust this to control the container's height */
+            gap: 100px; /* Add gap between images and captions */
+        }
+
+        .image {
+            max-width: 500px; /* Adjust this to control the images' width */
+            height: auto;
+            margin: 25px 0; /* Adjust this to add spacing between images */
+            gap: 100px;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .Tex {
+            text-align: center;
+        }
+        nav {
+            font-size: 18px;
+        }
+
+        head {
+        width: 100%;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(50,133,129,1) 0%, rgba(68,68,68,1) 93%);
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+            display: flex; /* Use flex display for positioning */
+            justify-content: space-between; /* Align items at start and end */
+            align-items: center;
+        }
+
+        .navbar-item {
+            margin: 0 40px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 24px;
+            font-family: "Optima", sans-serif;
+            padding: 10px 20px; /* Add padding to control spacing */
+        }
+
+        .navbar-item-container {
+            flex: 1; /* Distribute available space evenly */
+            text-align: center;
+        }
+
+        .navbar-logo {
+            margin: 0 35px;
+            color: white;
+            text-decoration: none;
+            text-align: left;
+            font-weight: none;
+            font-size: 18px;
+            font-family: "Courier New", monospace;
+        }
+
+        .content {
+            margin-top: 0;
+            text-align: center;
+        }
