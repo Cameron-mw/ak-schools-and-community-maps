@@ -1,0 +1,28 @@
+version: "3.0"
+services:
+  schools:
+    image: cameron-mw/ak-schools-and-communities:latest
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: schools
+    command: "python SchoolsMap.py"
+    restart: unless-stopped
+    ports:
+      - "8050:8050"
+    environment:
+      - PROD=true
+      - MAPBOX_ACCESS_TOKEN
+
+  communities:
+    image: cameron-mw/ak-schools-and-communities:latest
+    depends_on:
+      - schools
+    container_name: communities
+    command: "python CommunitiesMap.py"
+    restart: unless-stopped
+    ports:
+      - "8051:8050"
+    environment:
+      - PROD=true
+      - MAPBOX_ACCESS_TOKEN

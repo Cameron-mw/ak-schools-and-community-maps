@@ -432,6 +432,10 @@ def update_figure(selected_category, search, HSsearch):
 
     return fig, text_display, chart
 
-    # Run App
+# Run App
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    if os.getenv('PROD', 'False').lower() in ('true', '1', 't'):
+        from waitress import serve
+        serve(app.server, host='0.0.0.0', port=8050)
+    else:
+        app.run_server(debug=True)
