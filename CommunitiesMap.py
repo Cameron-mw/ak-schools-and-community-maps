@@ -33,11 +33,11 @@ app.layout = html.Div([
     html.Div(className='navbar', children=[
         html.A("AK School & Community Maps", className='navbar-logo'),
         html.Div(className='navbar-item-container', children=[
-            html.A("About", className='navbar-item'),
-            html.A("Communities", className='navbar-item'),
-            html.A("Schools", className='navbar-item'),
-            html.A("Analysis", className='navbar-item'),
-            html.A("Github", className='navbar-item', target="_blank"),
+            html.A("About", className='navbar-item', href='/akdata'),
+            html.A("Communities", className='navbar-item', href='/akdata/communities'),
+            html.A("Schools", className='navbar-item', href='/akdata/schools'),
+            html.A("Analysis", className='navbar-item', href='/akdata/analysis'),
+            html.A("Github", className='navbar-item', href='https://github.com/cameron-mw'),
         ])
     ]),
     # Title
@@ -556,6 +556,10 @@ def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RC
 if __name__ == '__main__':
     if os.getenv('PROD', 'False').lower() in ('true', '1', 't'):
         from waitress import serve
-        serve(app.server, host='0.0.0.0', port=8050)
+
+        ENV_HOST = os.getenv('HOST', '0.0.0.0')
+        ENV_PORT = os.getenv('PORT', '8050')
+        ENV_URL_SCHEME = os.getenv('URL_SCHEME', 'https')
+        serve(app.server, host=ENV_HOST, port=ENV_PORT, url_scheme=ENV_URL_SCHEME)
     else:
         app.run_server(debug=True)

@@ -12,6 +12,7 @@ services:
       - "8050:8050"
     environment:
       - PROD=true
+      - DASH_URL_BASE_PATHNAME=${SCHOOLS_BASE_URL}
       - MAPBOX_ACCESS_TOKEN
 
   communities:
@@ -25,4 +26,6 @@ services:
       - "8051:8050"
     environment:
       - PROD=true
+      - DASH_URL_BASE_PATHNAME=${COMMUNITIES_BASE_URL}
       - MAPBOX_ACCESS_TOKEN
+
