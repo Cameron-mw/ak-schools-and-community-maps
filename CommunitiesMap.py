@@ -33,7 +33,7 @@ app.layout = html.Div([
     html.Div(className='navbar', children=[
         html.A("AK School & Community Maps", className='navbar-logo'),
         html.Div(className='navbar-item-container', children=[
-            html.A("About", className='navbar-item', href='/akdata'),
+            html.A("About", className='navbar-item', href='/akdata/about'),
             html.A("Communities", className='navbar-item', href='/akdata/communities'),
             html.A("Schools", className='navbar-item', href='/akdata/schools'),
             html.A("Analysis", className='navbar-item', href='/akdata/analysis'),
