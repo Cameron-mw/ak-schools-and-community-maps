@@ -37,3 +37,12 @@ services:
       - "8052:8000"
     volumes:
       - ./html:/serve
+
+  media:
+    image: jdkelley/simple-http-server:latest
+    container_name: media
+    restart: unless-stopped
+    ports:
+      - "8053:8000"
+    volumes:
+      - ./media:/serve
