@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AK Schools & Maps</title>
+        <style>
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            h1 {
+                text-align: center;
+            }
+
+            h5 {
+                text-align: center;
+                margin-top: -10px;
+            }
+    
+            body {
+                font-family: "Optima", sans-serif;
+                color: black;
+                font-size: 18px;
+                line-height: 1.6em;
+                text-align: left;
+                max-width: 100%;
+                margin: 0 auto; /* Center the container horizontally */
+            }
+            .container {
+                width: 1050px;
+                margin: 0 auto; /* Center the container horizontally */
+                padding: 50px;
+            }
+    
+            p {
+                padding: 5px
+            }
+    
+            a {
+                text-decoration: none;
+            }
+        
+            .image-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 25px 0; /* Adjust this to control the container's height */
+                gap: 100px; /* Add gap between images and captions */
+            }
+        
+            .image {    
+                max-width: 500px; /* Adjust this to control the images' width */
+                height: auto;
+                margin: 25px 0; /* Adjust this to add spacing between images */
+                gap: 100px;
+            }
+    
+            figure {
+                margin: 0;
+            }
+    
+            figcaption {
+                text-align: center;
+                font-size: 14px;
+            }
+    
+            .Tex {
+                text-align: center;
+            }
+            nav {
+                font-size: 18px;
+            }
+    
+            head {
+            width: 100%;
+            }
+    
+            .navbar {
+                background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(50,133,129,1) 0%, rgba(68,68,68,1) 93%);
+                margin: 0;
+                padding: 20px 0;
+                text-align: center;
+                display: flex; /* Use flex display for positioning */
+                justify-content: space-between; /* Align items at start and end */
+                align-items: center;
+            }
+    
+            .navbar-item {
+                margin: 0 40px;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 24px;
+                font-family: "Optima", sans-serif;
+                padding: 10px 20px; /* Add padding to control spacing */
+            }
+    
+            .navbar-item-container {
+                flex: 1; /* Distribute available space evenly */
+                text-align: center;
+            }
+    
+            .navbar-logo {
+                margin: 0 35px;
+                color: white;
+                text-decoration: none;
+                text-align: left;
+                font-weight: none;
+                font-size: 18px;
+                font-family: "Courier New", monospace;
+            }
+    
+            .content {
+                margin-top: 0;
+                text-align: center;
+            }
+        </style>    
+    
+    </head>
+    <div class="navbar">
+        <a class="navbar-logo">AK School & Community Maps</a>
+        <div class="navbar-item-container">
+        <a class="navbar-item" >About</a> <a class="navbar-item">Communities</a> <a class="navbar-item">Schools</a> <a class="navbar-item">Analysis</a> <a target="_blank" href="https://github.com/Cameron-mw/AlaskaData" class="navbar-item">Github</a>
+        </div>  
+    </div>
+<body>
+<div class="container">
+<h1>Alaska School and Community Maps Project</h1> <h5>version 1.0</h5>
+
+<p>Alaska is vast in size, and her communities are diverse both in populace and in location. There are some you can drive to, and many more accessible only by air or sea or river. Alaska is a truly unique place to live in the United States, not just by its immense size and the distances between its rural communities, but by the people who inhabit the vastness and have called it home for generations.</p>
+
+<h3>What is this project?</h3>
+<p>The Alaska School and Community Maps Project has two goals. Firstly: To visualize the geographic data of urban and rural Alaskan communities and schools. Secondly, to discover what relationships&mdash;if any&mdash;exist between the physical geography and the educational data that is available, namely four-year high school graduation rates (details on the Analysis page). Most maps do not do justice to Alaska&rsquo;s size and the distances between its communities, but we will attempt to comprehend those distances here and explore the attributes that make our communities unique and distinct. I have always found maps and geography compelling, and I hope to share some pieces of Alaskan geography in an interactive way here that you too may find interesting.</p>
+
+<h3>What is the data?</h3>
+<p>The State of Alaska collects and provides free-use data through the <a target="_blank" href="https://gis.data.alaska.gov">Open Data Geoportal</a>. The State of Alaska Open Data Geoportal is a cooperative project coordinated by the Alaska Geospatial Office, and its services are hosted by several public agencies. There are datasets and maps available in the Geoportal that explore a wide range of subjects, including but not limited to: populations, demographics, geography, geology, hazards, weather, natural resources, environmental health, wildlife, utilities, education, and business. The focus for this project is primarily on community and education related data and how it can be visualized and interpreted. The tool used to clean and organize the data tables used for this presentation is DB Browser for SQLite. It should be noted that all data used and any inferences made in this endeavor are solely for the purposes of research. Most raw data we encounter is incomplete and contains errors or irregularities of some kind. See the Open Data Geoportal&rsquo;s terms <a target="_blank" href="https://dnr.alaska.gov/shared/notices/privacy.htm">here</a>.</p>
+
+<h3>What can we do with the data?</h3>
+<p>The most effective tool for interpreting large datasets is visualization. Data visualization in this context means creating charts, figures, and maps that display quantitative (numeric) and qualitative (non-numeric) data that would be otherwise unreadable. The primary visualizations done for this project are interactive state maps showing Alaskan communities/schools and some corresponding population/education data, along with figures that group population or school enrollment in engaging ways. The tools used to visualize this data are Dash, Plotly Express, Mapbox, and RStudio.</p>
+
+<p>The other powerful tool we can use to intepret data is statistics. Put simply, statistics is the process of forming hypotheses and drawing conclusions using samples of data. Statistics is a large field with many different kinds of tools and applications. We will use a small handful of these tools&mdash;namely comparative statistics and hypothesis testing&mdash;to examine how community classifications determined by geography correlate with four-year high school graduation rates in their respective schools.</p>
+
+<h3>Who am I?</h3>
+<p><a target="_blank" href="https://www.linkedin.com/in/cameron-woodward-95019a152/"><img src="/Users/cameronwoodward/Desktop/Media/LinkedIn_logo_initials.png" style="width:2%;height:2%;">&nbsp;My Linkedin Profile</a> </p>
+<p>My name is Cameron, I am in my twenties, living in south-central Alaska. I have a mathematics and education background, but also possess a passion for geography, history, world cultures, and philosophy. I am seeking to gain knowledge and appreciation about my home state of Alaska, and I hope to gain some skills in data research, data analysis, databases, and app-development along the way.</p>
+</div>
+</body>
+</body>
+</html>

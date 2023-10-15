@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observations & Analysis</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            font-family: "Optima", sans-serif;
+            color: black;
+            font-size: 18px;
+            line-height: 1.6em;
+            text-align: left;
+            max-width: 100%;
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        .container {
+            width: 1050px;
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 50px;
+        }
+
+        p {
+            padding: 5px
+        }
+
+        a {
+            text-decoration: none;
+        }
+    
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px 0; /* Adjust this to control the container's height */
+            gap: 100px; /* Add gap between images and captions */
+        }
+    
+        .image {    
+            max-width: 500px; /* Adjust this to control the images' width */
+            height: auto;
+            margin: 25px 0; /* Adjust this to add spacing between images */
+            gap: 100px;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .Tex {
+            text-align: center;
+        }
+        nav {
+            font-size: 18px;
+        }
+
+        head {
+        width: 100%;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(50,133,129,1) 0%, rgba(68,68,68,1) 93%);
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+            display: flex; /* Use flex display for positioning */
+            justify-content: space-between; /* Align items at start and end */
+            align-items: center;
+        }
+
+        .navbar-item {
+            margin: 0 40px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 24px;
+            font-family: "Optima", sans-serif;
+            padding: 10px 20px; /* Add padding to control spacing */
+        }
+
+        .navbar-item-container {
+            flex: 1; /* Distribute available space evenly */
+            text-align: center;
+        }
+
+        .navbar-logo {
+            margin: 0 35px;
+            color: white;
+            text-decoration: none;
+            text-align: left;
+            font-weight: none;
+            font-size: 18px;
+            font-family: "Courier New", monospace;
+        }
+
+        .content {
+            margin-top: 0;
+            text-align: center;
+        }
+    </style>    
+
+</head>
+<div class="navbar">
+    <a class="navbar-logo">AK School & Community Maps</a>
+    <div class="navbar-item-container">
+    <a class="navbar-item">About</a> <a class="navbar-item">Communities</a> <a class="navbar-item">Schools</a> <a class="navbar-item">Analysis</a> <a href="https://github.com/Cameron-mw" class="navbar-item" target="_blank">Github</a>
+    </div>  
+</div>
+<body>
+
+<div class="container">
+    <h1>Observations & Analysis</h1>
+    <nav id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <ol type="I">
+            <li><a href="#section-1">Observations</a></li>
+            <li><a href="#section-2">Analysis</a>
+                <ol>
+                    <li><a href="#subsection-1">Environmentally Threatened Communities</a></li>
+                    <li><a href="#subsection-2">Road Connection by Community</a></li>
+                    <li><a href="#subsection-3">Essential Air Service Communities</a></li>
+                </ol>
+            </li>
+            <li><a href="#section-3">Conclusions</a></li>
+            <li><a href="#section-4">Works Cited</a></li>
+        </ol>
+    </nav>
+<br>
+<section id="section-1">
+<h2>I. Observations</h2>
+
+<p>The first emphasis of this project was to visualize Alaskan community and school related data on a state map. All the data used is publicly available from the <a target="_blank" href="https://gis.data.alaska.gov">State of Alaska Open Data Geoportal</a>. The &lsquo;Communities&rsquo; section displays several classifications of this data, differentiating communities based on road connection, subsistence use, <a target="_blank" href="https://www.transportation.gov/policy/aviation-policy/small-community-rural-air-service/essential-air-service">Essential Air Service Program participation</a>, and environmental threat status. These are all attributes of communities which are wholly or in part determined by their location and geography. Similarly, the &lsquo;Schools&rsquo; section visualizes school geogrpahy, statistics of student enrollment, student-teacher ratio, and four-year high school graduation rate by school. Since educational data is available over a range of years, we were able to see how some of these statistics changed over time.</p>
+</section>
+
+<section id="section-2">
+<h2>II. Analysis</h2>
+
+<p>The second goal of this project restated is to see how&mdash;if at all&mdash;the four-year high school graduation rates of Alaskan schools differ when grouped by the community attributes of environmental threat status, road connection, and Essential Air Service Program (EAS) participation. Four-Year graduation rate is one of the most widely available educational statistics that can be used to (a moderate extent) measure a high school&rsquo;s efficacy. I wanted to find out if these external factors caused by geographic placement had any measurable correlation to high school graduation rates in Alaskan schools. Now that we have established a bit of background for the community and school-related data through their interactive maps sections, let us explore what connections might exist between them through statistics.</p>
+
+<p>Note: we will not be examining any correlations between graduation rates and subsistence use communities due to some ambiguity in the data. While the State of Alaska clearly defines <a target="_blank" href="https://www.adfg.alaska.gov/index.cfm?adfg=subsistence.main">Subsistence Use</a>, the State&rsquo;s open data geoportal does not clearly define what a &lsquo;subsistence use community&rsquo; is. We can naturally infer that a subsistence use community is a village or town whose residents primarily rely on traditional hunting, fishing, and gathering practices in order to survive in remote areas. The issue with the <a target="_blank" href="https://gis.data.alaska.gov/datasets/DCCED::subsistence-use-communities/explore?location=24.117521%2C-1.734750%2C2.14">&ldquo;Subsistence Use Communities&rdquo; table</a> is its inclusion of a number of non-rural communities with large populations who do not widely participate in subsistence as it is defined above, namely Eagle River, Gateway, and Knik-Fairview.</p>
+
+<h3>Methods of Grouping</h3>
+
+<p>The four-year high school graduation rate data available to us on the Open Data Geoportal spans over seven years (2015-2021 inclusively). As a consequence, on the <a target="_blank" href="https://gis.data.alaska.gov/datasets/DCCED::high-school-graduation-rate-four-year/explore">&ldquo;High School Graduation Rate: Four Year&rdquo; table</a>, each school has seven distinct data entries&mdash;one for each school year&mdash;with a unique graduation rate calculated for each given year. This is the case for every school recorded on table, though rates for some schools may not be present across all seven years. For mathematical reasons, any null values present in the table have been removed for these exercises.</p>
+
+<h4>Raw-Data Method</h4>
+
+<p>The best method to group and calculate graduation related statistics is to use the raw data without any prior manipulation, meaning that we are treating the seven data entries present for each school over the course of seven years as distinct values, even though they come from the same school just at different times.</p>
+
+<h4>Alternate Method</h4>
+
+<p>Alternatively, we could calculate the average graduation rate of each school over the span of seven years, and use that average as the school&rsquo;s &lsquo;overall&rsquo; graduation rate. So instead of having each school represented as seven separate entries in our table, we have one unique entry for each school whose rate is represented by an average. This method of reorganizing the data decreases the table size and increases readability, but tends to increase the difference in variance between the samples, which may increase the risk of error in potential hypothesis testing later on. Because of this, we will not organize the sample data as this method describes.</p>
+<section id="subsection-1">
+<h3>1. Environmentally Threatened Communities</h3>
+
+<p>It may seem somewhat odd asking how a seemingly nebulous external factor such as environmental threat might affect local high school graduation rates, especially given how environmental threat in this case is scored based on varying factors such as flood, erosion, and permafrost degradation. Each community is affected in a unique way, and not necessarily by all three factors. For now, we will treat all communities designated as environmentally threatened equally, but it will be worth revisiting the subject in greater depth later on as more data becomes available. Threat designation comes from the <a target="_blank" href="https://gis.data.alaska.gov/datasets/DCCED::environmentally-threatened-communities-table-agol/explore">&ldquo;Environmentally Threatened Communities&rdquo; table</a>.</p>
+
+<h4>Grouping</h4>
+
+<p>The schools whose data we are working with will separated into two groups (or samples). The first (Group A) are schools belonging to Alaskan communities that <b>are not</b> environmentally threatened. The second (Group B) are schools belonging to communities that <b>are</b> environmentally threatened.</p>
+
+<h4>Statistics &amp; Measures of Center</h4>
+
+<p>Below is a figure of the comparative statistics betweens groups A and B, along with a histrogram of graduation rate frequency for each group and a combined histogram of both groups.  </p>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/EnvStats-optimized.jpg" alt="Environmentally Threatened Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 1.1: Environmentally Threatened & Non-Threatened Community Four-Year Graduation Rates</figcaption> </figure>
+<div class="image-container">
+    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/EnvSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/Users/cameronwoodward/Desktop/Media/EnvSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 1.2 & 1.3</figcaption></figure>
+</div>
+<figure><img src="/Users/cameronwoodward/Desktop/Media/EnvA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 1.4</figcaption></figure>
+<p>Note: these statistics are based on calculations involving rates. A rate is a number between 0 and 1 that indicates a percentage (e.g. 0.5 is 50%), which in this case is a high school graduation rate.</p>
+
+<p>Groups A and B have similar means with Group A leading by about 3%. Group A&rsquo;s median rate (0.81) also leads by approximately 7%. The sample variances (0.087 and 0.093 for A and B respectively) differ by 7%, and Group B&rsquo;s interquartile range (0.50) is 12% greater than A&rsquo;s (0.44), indicating the middle 50% of Group B&rsquo;s data is slightly more spread out than A&rsquo;s.</p>
+
+<h4>Statistical Significance</h4>
+
+<p>According to <a target="_blank" href="https://www.investopedia.com/terms/s/statistical-significance.asp#:~:text=Statistical%20significance%20refers%20to%20the%20claim%20that%20a%20result%20from,to%20be%20due%20to%20chance.">Investopedia&rsquo;s</a> <em>Statistical Significance Definition, Types, and How It's Calculated</em>, &ldquo;Statistical significance refers to the claim that a result from data generated by testing or experimentation is likely to be attributable to a specific cause [&#8230;] A high degree of statistical significance indicates that an observed relationship is unlikely to be due to chance.&rdquo;</p>
+
+<p>The goal of our analysis according to this definition is to determine if differing gradution rates between groups A and B are attributuate to environmental threat status. A potentential correlation could indicate whether or not living in an environmentally threatened community in Alaska affects the high school graduation rates in that community. The statistical measures calculated for groups A and B noticeably differ, but not by a large amount. To thoroughly test for a statistically significant difference between the rates of the samples, we will conduct a hypothesis test.</p>
+
+<h4>Hypothesis Test</h4>
+
+<p>As the name suggests, hypothesis testing in statistics involves forming a hypothesis that a specific property belongs to a data sample and then generating a probability (called a p-value) that the larger population that the sample comes from also has said property. Similarly, we can form hypotheses that two samples from independent populations share some property (such as mean, variance, distribution, etc.) The first hypothesis we make is called the null hypothesis \(H_0\). The final results of a hypothesis test compel us to either &lsquo;accept&rsquo; or reject the null hypothesis in favor of the alternative (secondary) hypothesis \(H_1\). The term &lsquo;fail to reject&rsquo; is preferred over the term &lsquo;accept&rsquo; in a hypothesis test because nothing is being explicitly proven in a hypothesis test, and an insignificant result in a test could be caused by an insufficient amount of data. With that distinction made, here are the stated hypotheses for our test:</p>
+
+<p>Null Hypothesis \(H_0\): The distribution of graduation rate measurements in Population A (Group A is a sample of Population A) is the same as that in B (Group B is a sample of Population B). Symbolically: \(A=B\).<br>
+Alternative Hypothesis \(H_1\): The median of Population A is greater than the median of Population B, meaning the distribution of A is shifted to the right of B. Symbolically: \(A>B\).</p>
+
+<p>The reason our alternative hypothesis is \(A>B\) rather than \(A \neq B\) is that our statistics from the sample data suggest that Population A&rsquo;s median may be larger than B&rsquo;s.</p>
+
+<h4>Significance Level</h4>
+
+<p>We must choose a significance level that acts as the boundary point between rejecting and failing to reject a null hypothesis. Significance level is denoted as alpha (\(\alpha=0.05\) is standard in most tests). This \(\alpha=0.05\) indicates we are accepting a 5% level of risk of concluding there is a statistically significant difference between the populations when in fact there is none. At the end of the test, we generate a p-value (p stands for probability) from our test statistic that represents the probability that the null hypothesis is <b>true</b>. If the p-value is less than 0.05 (our chosen \(\alpha\) significance level), the difference between the samples is statistically significant and we reject the null hypothesis, concluding both samples likely come from different populations (or different distributions). Note: all tests in these sections will be conducted at the \(\alpha=0.05\) significance level.</p>
+
+<h4>Distribution</h4>
+
+<p>Most statistics students first conduct hypothesis tests on samples coming from normal distributions. A normal distribution&rsquo;s shape and size is determined by two parameters&mdash;its mean and variance&mdash;and is represented by a bell-shaped curve where a majority of the data falls near the mean. Some everyday examples of normally distributed variables are height, birth weight, and SAT scores (<a target="_blank" href="https://www.scribbr.com/statistics/normal-distribution/">Bhandari, <em>Normal Distribution | Examples, Formulas, &amp; Uses</em></a>). Below is a simulated example of data following a normal distribution acheived by ordering 1000 randomly selected peoples&rsquo; height from shortest to tallest.</p>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/NormalExample.jpg" alt="Normal Distribution Example" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.5: Normal Distribution</figcaption> </figure>
+
+<p>Hypothesis tests done on samples coming from normal distributions (or any specific distributions) are called parametric tests. Comparing our sample distributions of graduation rates in groups A and B with the normal distribution example, it is visually evident that neither of these histograms conform to the normal distribution or any common distribution. Furthermore, conducting the Shapiro-Wilk test of normality on both samples strongly indicates non-normality (p-value < 0.05) in both. Because neither of the samples follow a specific distribution, we cannot use parametric tests, but will employ a non-parametric test instead. Read more about non-parametric testing <a target="_blank" href="https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_nonparametric/bs704_nonparametric_print.html">here</a>.</p>
+
+<div class="image-container">
+    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/Env/ShapiroA-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;">
+    <img class="image" src="/Users/cameronwoodward/Desktop/Media/Env/ShapiroB-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;"> <figcaption>Figures 1.6 & 1.7: Shapiro-Wilk Tests</figcaption></figure>
+</div>
+
+<h4>The Wilcoxon Rank-Sum Test</h4>
+
+<p>The non-parametric alternative we will employ for our hypothesis testing is the Wilcoxon Rank-Sum Test, sometimes referred to as Mann-Whitney U-Test, or U-Test. This test does not assume or require any specific distribution, which makes it a good candidate for our data. It is very convenient that the U-Test requires relatively few assumptions about our data, but this generally indicates that it is a weaker test, as most non-parametric tests are. That being said, here are two light assumptions about our data. Firstly: assume the two samples are independent, meaning that no information from Group A reveals information about group B and vice versa. Secondly, we are assuming that the samples come from populations of equal <a target="_blank" href="https://en.wikipedia.org/wiki/Variance">variance</a> (variance = standard deviation squared). Obviously, we don&rsquo;t know the variance of the true populations, we can only make a judgment based off the sample variances. If the samples&rsquo; variances are near each other, we can be reasonably confident in making this assumption. The difference in variances between samples A and B is very small (0.088 and 0.094, a 7% difference). A test to check for equal variances between two samples that do not follow a normal distribution is the Fligner-Killeen Test of Homogeneity of Variances. Unfortunately, this test does not work for samples of different sizes, so we will rely on our assumption. It is important that two populations have the same variance when conducting a hypothesis test, otherwise we risk making a <a target="_blank" href="https://www.scribbr.com/statistics/type-i-and-type-ii-errors/">type I error</a> (Rejecting a null hypothesis that is actually true). With these acknowledgements made, I believe our usage of the U-Test is sufficiently justified for these exercises.</p>
+
+<p>The Wilcoxon Rank-Sum Test works by combining all values from both samples (A and B in our case) into a single list and ordering them from least to greatest. Then, we assign a rank to each value, the smallest having rank 1, the next smallest having rank 2 and so on. If there are ties, the ranks of the tied numbers are adjusted to be the average of their original ascending ranks. For example, the list \(\{13, 14, 14, 15, 16\}\) would be given ranks in the order \(\{1, 2.5, 2.5, 4, 5\}\). This is because \(\{14, 14\}\) is a tie of the values having ranks 2 and 3 respectively, so their ranks are each adjusted to be the average of 2 and 3 instead, which is \(\frac{2+3}{2}=2.5\). In the U-Test, if a majority of ranked values coming from one sample are frequently occurring at the top or bottom of the ranked list, it is likely that the sample comes from a distribution that shifted to the right (greater) or left (smaller) depending if the frequently occurring values cluster at the top or bottom.</p>
+
+<p>After ranking all values, calculate \(W_A\) and \(W_B\), the sums of the ranks of the values from groups A and B respectively. Then calculate the corresponding statistics</p>
+
+<div class="Tex">
+<p>\(U_A=W_A-\frac{n_A(n_A+1)}{2}\)
+    <br><br>
+\(U_B=W_B-\frac{n_B(n_B+1)}{2}\)</p>
+</div>
+
+<p>where \(n_A\) and \(n_B\) are the sample sizes of groups A and B respectively. In the U-Test, we base all tests of the null hypothesis on the distribution corresponding to \(U=min(U_A, U_B)\) (Miller et al., 461). Usually, this means comparing the lesser of the calculated \(U\) statistics to the appropraite \(U\) critical value (and corresponding p-value) found in a <a target="_blank" href="http://plantsys.elte.hu/oktatas/Biometria/tablazatok/Wilcoxon_table_ketmintas_probahoz.pdf">table of critical values</a>. Our sample size is far too large to be able to compare our \(U\) test statistic to a critical value on a conventional table, nor we should we attempt rank over 100 values on paper, so we will RStudio statistical software to conduct the test for us.</p> <br>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/Env/EnvUTest-optimized.jpg" alt="Env U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.8: Mann-Whitney U test of Graduation Rates in Environmentally Threatened & non-Threatened Communities</figcaption> </figure> 
+<br>
+<p>Restating our hypotheses,</p>
+
+<div class="Tex">
+<p>\(H_0: A=B\)<br>
+    \(H_1: A>B\).</p>
+
+</div>
+<p>With a p-value of 0.25, there is an approximately 25% chance (according to our sample data) that the null hypothesis \(H_0\) is true. While this may seem like an acceptably low probably with which to reject something, it is not the case here. Our p-value must be smaller than the significance level (0.05) to suggest a statistically significant difference between the populations. And since 0.25 > 0.05, we fail to reject the null hypothesis that groups A and B come from the same population. This means a correlation is <b>unlikely</b> between environmental threat and four-year high school graduation rates according to the available data.</p>
+</section>
+
+<section id="subsection-2">
+<h3>2. Road Connection by Community</h3>
+
+<p>Let us perform a similar analysis as before, but instead of comparing graduation rates based on environmental threat status, let us examine how (if at all) four-year graduation rates differ when grouped by community road connection status. &lsquo;Road Connection&rsquo; can be interpreted as an individual community&rsquo;s access to state roads which link to the larger highways reaching all major population centers in Alaska. This includes the Alcan Highway which passes into Canada and eventually connects to the contiguous lower 48 states. Air, sea, and river are common alternative modes of access to communities without road connection. Road connection status comes from the <a target="_blank" href="https://gis.data.alaska.gov/datasets/DCCED::road-connection-in-community/explore">&ldquo;Road Connection in Community&rdquo; table</a>.</p>
+
+<h4>Grouping</h4>
+
+<p>The schools whose data we are working with will separated into two groups. The first (Group A) are schools belonging to Alaskan communities that are connected to the state road system. The second (Group B) are schools belonging to communities that are <b>not</b> connected to the state road system.</p>
+
+<h4>Statistics &amp; Measures of Center</h4>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/RoadStats-optimized.jpg" alt="Road Connection Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 2.1: Road Connected & Non-Road Connected Community Four-Year Graduation Rates</figcaption> </figure>
+<div class="image-container">
+    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/RoadSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/Users/cameronwoodward/Desktop/Media/RoadSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 2.2 & 2.3</figcaption></figure>
+</div>
+<figure><img src="/Users/cameronwoodward/Desktop/Media/RoadA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 2.4</figcaption></figure>
+
+<p>Groups A and B have nearly identical means with group B leading by only 0.11%. Group A&rsquo;s median rate (0.80) also leads by approximately 5%. The sample variances (0.087 and 0.093 for A and B respectively) differ by 6%, and group B&rsquo;s interquartile range (0.50) is 14% greater than Group A&rsquo;s (0.43), indicating a slightly tighter concentration of data around the median in A&rsquo;s data. Visually, the two distributions of these samples are more similar to each other than in the previous environmental threat category we examined. There is even less of a suggestion from the absolute differences calculated here that groups A and B come from different populations, meaning that a community&rsquo;s road connection status has little to no correlation to graduation rates. But to be thorough, we will repeat the Wilcoxon Rank-Sum Test for these samples under the same assumptions as before. Since Group A&rsquo;s median is greater than B&rsquo;s median, we will maintain our alternative hypothesis that Population A&rsquo;s distribution is shifted to the right (greater) than B&rsquo;s.</p>
+
+<div class="Tex">
+<p>\(H_0: A=B\)<br>
+\(H_1: A>B\).</p>
+</div>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/Road/RoadUTest-optimized.jpg" alt="Road U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 2.5: Mann-Whitney U test of Graduation Rates in Road Connected & non-Road Connected Communities</figcaption> </figure> <br>
+
+<p>With a p-value of 0.84, there is a strong likelihood that the null hypothesis \(H_0\) is true. Since 0.84 is greater than the chosen significance level of 0.05, we fail to reject the null hypothesis that groups A and B come from the same population. This means a correlation is <b>extremely unlikely</b> between state road connection and four-year high school graduation rates according to the available data.</p>
+</section>
+
+<section id="subsection-3">
+<h3>3. Essential Air Service Communities</h3>
+
+<p>We will conduct our third and final test involving graduation rates based on communities participating in the Essential Air Service Program. &ldquo;The <a target="_blank" href="https://www.transportation.gov/policy/aviation-policy/small-community-rural-air-service/essential-air-service">Essential Air Service (EAS)</a> program was put into place to guarantee that small communities previously served by certificated air carriers before airline deregulation maintain a minimal level of scheduled air service. The US Department of Transportation currently subsidizes commuter and certificated air carriers to serve approximately 60 communities in Alaska and 115 communities in the lower 48 contiguous states that otherwise would not receive any scheduled air service&rdquo; <a target="_blank" href="https://www.transportation.gov/policy/aviation-policy/small-community-rural-air-service/essential-air-service">(<em>Air Service</em>, transportation.gov)</a>. The data comes from the <a target="_blank" href="https://gis.data.alaska.gov/datasets/DCCED::essential-air-service-communities/explore">&ldquo;Essential Air Service Communities&rdquo; table.</a> </p>
+
+<h4>Grouping</h4>
+
+<p>The schools whose data we are working with will separated into two groups. The first (Group A) are schools belonging to Alaskan communities that participate in the Essential Air Service Program. The second (Group B) are schools belonging to all remaining communities <b>not</b> participating in the EAS Program.</p>
+
+<h4>Statistics &amp; Measures of Center</h4>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/EASStats-optimized.jpg" alt="EAS Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 3.1: EAS & Non-EAS Community Four-Year Graduation Rates</figcaption> </figure>
+<div class="image-container">
+    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/EASSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/Users/cameronwoodward/Desktop/Media/EASSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 3.2 & 3.3</figcaption></figure>
+</div>
+<figure><img src="/Users/cameronwoodward/Desktop/Media/EASA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 3.4</figcaption></figure>
+
+<p>Noted that the two groups when categorized by EAS participation have the greatest size difference (207 vs. 1574) of our categorizations done in this section. Large differences in sample size has the risk of increasing the inequality between sample variances. This strains our assumption of equal vairance, which in turn increases the chance of a type I error.</p>
+
+<p>Group A has a larger mean (0.78) than B (0.68). Group A&rsquo;s median rate (0.93) also leads by over 20%. The sample variances (0.10 and 0.089 for A and B respectively) differ by 14%, which is the greatest difference in sample variances represented here. The interquartile range of A (0.32) is greater than B&rsquo;s (0.25) which is expected given A&rsquo;s higher variance. Since there are considerable differences between the means and medians of A and B, let&rsquo;s again conduct the U-Test to see if the difference is significant. While we will still make the assumption of homoscedasticity (equal variances between populations), it should be noted the sample variances differ more so than in the previous tests.</p>
+
+<div class="Tex">
+<p>\(H_0: A=B\)<br>
+    \(H_1: A>B\).</p>
+</div>
+
+<figure><img src="/Users/cameronwoodward/Desktop/Media/EAS/EASU-Test-optimized.jpg" alt="EAS Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 3.5: Mann-Whitney U test of Graduation Rates in EAS & non-EAS Communities</figcaption> </figure> <br>
+
+<p>This test&rsquo;s p-value is \(2.235\times 10^{-10}\), which is significantly small, indicating a strong likelihood that the null hypothesis \(H_0\) is false. Since \(2.235\times 10^{-10}\) is less than the chosen significance level of 0.05, we reject the null hypothesis that groups A and B come from the same population. This means a correlation is <b>likely</b> to exist between EAS communtiies and their four-year high school graduation rates according to the available data.</p>
+</section>
+</section>
+
+<section id="section-3">
+<h2>III. Conclusions</h2> 
+
+<h3>1. Environmentally Threatened Communities</h3>
+
+<p>Comparative statistics indicated Alaskan schools in environmentally threatened communities have a slightly lower mean and median four-year high school graduation rates compared to schools in non-threatened communities between 2015 and 2021. A further non-parametric hypothesis test concluded that the difference between the samples&rsquo; statistics is not statistically significant, and that both samples come from the same population. Therefore, we conclude that the environmental threat status of a community does not correlate to a positive or negative effect on four-year high school graduation rates in that community.</p>
+
+<h3>2. Road Connection in Community</h3>
+
+<p>Comparative statistics indicated Alaskan schools in communities not connected to the state road system have a near equal mean but lower median four-year high school graduation rate compared to schools in road-connected communities between 2015 and 2021. A further non-parametric hypothesis test concluded that the difference between the samples&rsquo; statistics is not statistically significant, and that both samples come from the same population. Therefore, we conclude that the road connection status of a community does not correlate to a positive or negative effect on four-year high school graduation rates in that community.</p>
+
+<h3>3. Essential Air Service Program Participation by Community</h3>
+
+<p>Comparative statistics indicated Alaskan schools in communities participating in the National Essential Air Service (EAS) Program have a notably greater mean and median four-year high school graduation rate compared to schools in non-participating communities between 2015 and 2021. A further non-parametric hypothesis test concluded that the difference between the samples&rsquo; distributions are statistically significant, and that Sample A (Schools in EAS communities) comes from a population having a greater median graduation rate. Therefore, we conclude that a community&rsquo;s participation in the EAS Program correlates to an increase in the four-year high school graduation rates in that community based on the available data. However, due to the relatively large difference in variance and size between the two samples, this conclusion may be a <a target="_blank" href="https://www.scribbr.com/statistics/type-i-and-type-ii-errors/">type I error</a>.</p>
+
+<h3>Interpretations</h3>
+
+<p>While a lack of correlation between environmental threat status and road connection with graduation rates may seem less captivating to some, this is likely a positive result. It would be discouraging to conclude that environmental threats or lack of road connection correlate to a lesser degree of academic success in high schools in their respective communities. We can say with reasonable confidence through this data, that environmental threats and road connection do not correlate to lower four-year high school graduation rates in Alaskan communities.</p>
+
+<p>It should be reemphasized that hypothesis testing is not a method of proof. The results of the U-Test involving EAS communities show that Groups A and B come from different populations, and that there is a correlation between community EAS participation and higher graduation rates. This connection is fascinating and is worthy of further research, but does not necessarily imply causation (i.e. EAS Participation may not directly causes higher graduation rates). All this test shows is that the differences in graduation rates that occur when schools are grouped by community EAS participation is significant and likely not by chance. There is always a possibility of a making type I error (false positive), and the difference in sample sizes and variance between EAS vs. non EAS may contribute to the chances of such an error. Regardless of the possibility of error in this instance, further research of this correlation is justified.</p>
+</section>
+<br>
+<section id="section-4">
+<h2>IV. Works Cited</h2>
+<div>
+<p>Miller, Irwin. Miller, Marylees. <em>John E. Freund's Mathematical Statistics with Applications</em>. Eighth Edition. Pearson Education Inc, 2019.</p>
+
+<p>Wild, Chris. <em>The Wilcoxon Rank-Sum Test</em>. University of Auckland Deptartment of Statistics, 1997.</p>
+
+<p><a target="_blank" href="https://www.investopedia.com/terms/s/statistical-significance.asp">Investopedia. <em>Statistical Significance Definition, Types, and How It's Calculated</em>. 2023.</a></p>
+
+<p><a target="_blank" href="https://www.scribbr.com/statistics/normal-distribution/">Bhandari, Pritha. <em>Normal Distribution | Examples, Formulas, &amp; Uses</em>. Scribbr, 2020.</a></p>
+</div>
+</section>
+</div>
+</body>
+</html>
+
+
+
