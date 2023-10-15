@@ -32,7 +32,7 @@ app.layout = html.Div([
             html.A("Communities", className='navbar-item', href='/akdata/communities'),
             html.A("Schools", className='navbar-item', href='/akdata/schools'),
             html.A("Analysis", className='navbar-item', href='/akdata/analysis'),
-            html.A("Github", className='navbar-item', href='https://github.com/cameron-mw'),
+            html.A("Github", className='navbar-item', href='https://github.com/cameron-mw/ak-schools-and-community-maps', target="_blank"),
         ])
     ]),
 
