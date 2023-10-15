@@ -184,12 +184,12 @@
 
 <p>Below is a figure of the comparative statistics betweens groups A and B, along with a histrogram of graduation rate frequency for each group and a combined histogram of both groups.  </p>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/EnvStats-optimized.jpg" alt="Environmentally Threatened Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 1.1: Environmentally Threatened & Non-Threatened Community Four-Year Graduation Rates</figcaption> </figure>
+<figure><img src="/akdata/media/EnvStats-optimized.jpg" alt="Environmentally Threatened Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 1.1: Environmentally Threatened & Non-Threatened Community Four-Year Graduation Rates</figcaption> </figure>
 <div class="image-container">
-    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/EnvSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
-    <img class="image" src="/Users/cameronwoodward/Desktop/Media/EnvSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 1.2 & 1.3</figcaption></figure>
+    <figure><img class="image" src="/akdata/media/EnvSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/akdata/media/EnvSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 1.2 & 1.3</figcaption></figure>
 </div>
-<figure><img src="/Users/cameronwoodward/Desktop/Media/EnvA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 1.4</figcaption></figure>
+<figure><img src="/akdata/media/EnvA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 1.4</figcaption></figure>
 <p>Note: these statistics are based on calculations involving rates. A rate is a number between 0 and 1 that indicates a percentage (e.g. 0.5 is 50%), which in this case is a high school graduation rate.</p>
 
 <p>Groups A and B have similar means with Group A leading by about 3%. Group A&rsquo;s median rate (0.81) also leads by approximately 7%. The sample variances (0.087 and 0.093 for A and B respectively) differ by 7%, and Group B&rsquo;s interquartile range (0.50) is 12% greater than A&rsquo;s (0.44), indicating the middle 50% of Group B&rsquo;s data is slightly more spread out than A&rsquo;s.</p>
@@ -217,13 +217,13 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
 
 <p>Most statistics students first conduct hypothesis tests on samples coming from normal distributions. A normal distribution&rsquo;s shape and size is determined by two parameters&mdash;its mean and variance&mdash;and is represented by a bell-shaped curve where a majority of the data falls near the mean. Some everyday examples of normally distributed variables are height, birth weight, and SAT scores (<a target="_blank" href="https://www.scribbr.com/statistics/normal-distribution/">Bhandari, <em>Normal Distribution | Examples, Formulas, &amp; Uses</em></a>). Below is a simulated example of data following a normal distribution acheived by ordering 1000 randomly selected peoples&rsquo; height from shortest to tallest.</p>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/NormalExample.jpg" alt="Normal Distribution Example" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.5: Normal Distribution</figcaption> </figure>
+<figure><img src="/akdata/media/NormalExample.jpg" alt="Normal Distribution Example" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.5: Normal Distribution</figcaption> </figure>
 
 <p>Hypothesis tests done on samples coming from normal distributions (or any specific distributions) are called parametric tests. Comparing our sample distributions of graduation rates in groups A and B with the normal distribution example, it is visually evident that neither of these histograms conform to the normal distribution or any common distribution. Furthermore, conducting the Shapiro-Wilk test of normality on both samples strongly indicates non-normality (p-value < 0.05) in both. Because neither of the samples follow a specific distribution, we cannot use parametric tests, but will employ a non-parametric test instead. Read more about non-parametric testing <a target="_blank" href="https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_nonparametric/bs704_nonparametric_print.html">here</a>.</p>
 
 <div class="image-container">
-    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/Env/ShapiroA-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;">
-    <img class="image" src="/Users/cameronwoodward/Desktop/Media/Env/ShapiroB-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;"> <figcaption>Figures 1.6 & 1.7: Shapiro-Wilk Tests</figcaption></figure>
+    <figure><img class="image" src="/akdata/media/Env/ShapiroA-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;">
+    <img class="image" src="/akdata/media/Env/ShapiroB-optimized.jpg" alt="Sample A Shapiro-Wilk Test" style="border: 2px solid black;"> <figcaption>Figures 1.6 & 1.7: Shapiro-Wilk Tests</figcaption></figure>
 </div>
 
 <h4>The Wilcoxon Rank-Sum Test</h4>
@@ -242,7 +242,7 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
 
 <p>where \(n_A\) and \(n_B\) are the sample sizes of groups A and B respectively. In the U-Test, we base all tests of the null hypothesis on the distribution corresponding to \(U=min(U_A, U_B)\) (Miller et al., 461). Usually, this means comparing the lesser of the calculated \(U\) statistics to the appropraite \(U\) critical value (and corresponding p-value) found in a <a target="_blank" href="http://plantsys.elte.hu/oktatas/Biometria/tablazatok/Wilcoxon_table_ketmintas_probahoz.pdf">table of critical values</a>. Our sample size is far too large to be able to compare our \(U\) test statistic to a critical value on a conventional table, nor we should we attempt rank over 100 values on paper, so we will RStudio statistical software to conduct the test for us.</p> <br>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/Env/EnvUTest-optimized.jpg" alt="Env U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.8: Mann-Whitney U test of Graduation Rates in Environmentally Threatened & non-Threatened Communities</figcaption> </figure> 
+<figure><img src="/akdata/media/Env/EnvUTest-optimized.jpg" alt="Env U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 1.8: Mann-Whitney U test of Graduation Rates in Environmentally Threatened & non-Threatened Communities</figcaption> </figure> 
 <br>
 <p>Restating our hypotheses,</p>
 
@@ -265,12 +265,12 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
 
 <h4>Statistics &amp; Measures of Center</h4>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/RoadStats-optimized.jpg" alt="Road Connection Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 2.1: Road Connected & Non-Road Connected Community Four-Year Graduation Rates</figcaption> </figure>
+<figure><img src="/akdata/media/RoadStats-optimized.jpg" alt="Road Connection Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 2.1: Road Connected & Non-Road Connected Community Four-Year Graduation Rates</figcaption> </figure>
 <div class="image-container">
-    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/RoadSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
-    <img class="image" src="/Users/cameronwoodward/Desktop/Media/RoadSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 2.2 & 2.3</figcaption></figure>
+    <figure><img class="image" src="/akdata/media/RoadSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/akdata/media/RoadSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 2.2 & 2.3</figcaption></figure>
 </div>
-<figure><img src="/Users/cameronwoodward/Desktop/Media/RoadA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 2.4</figcaption></figure>
+<figure><img src="/akdata/media/RoadA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 2.4</figcaption></figure>
 
 <p>Groups A and B have nearly identical means with group B leading by only 0.11%. Group A&rsquo;s median rate (0.80) also leads by approximately 5%. The sample variances (0.087 and 0.093 for A and B respectively) differ by 6%, and group B&rsquo;s interquartile range (0.50) is 14% greater than Group A&rsquo;s (0.43), indicating a slightly tighter concentration of data around the median in A&rsquo;s data. Visually, the two distributions of these samples are more similar to each other than in the previous environmental threat category we examined. There is even less of a suggestion from the absolute differences calculated here that groups A and B come from different populations, meaning that a community&rsquo;s road connection status has little to no correlation to graduation rates. But to be thorough, we will repeat the Wilcoxon Rank-Sum Test for these samples under the same assumptions as before. Since Group A&rsquo;s median is greater than B&rsquo;s median, we will maintain our alternative hypothesis that Population A&rsquo;s distribution is shifted to the right (greater) than B&rsquo;s.</p>
 
@@ -279,7 +279,7 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
 \(H_1: A>B\).</p>
 </div>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/Road/RoadUTest-optimized.jpg" alt="Road U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 2.5: Mann-Whitney U test of Graduation Rates in Road Connected & non-Road Connected Communities</figcaption> </figure> <br>
+<figure><img src="/akdata/media/Road/RoadUTest-optimized.jpg" alt="Road U Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 2.5: Mann-Whitney U test of Graduation Rates in Road Connected & non-Road Connected Communities</figcaption> </figure> <br>
 
 <p>With a p-value of 0.84, there is a strong likelihood that the null hypothesis \(H_0\) is true. Since 0.84 is greater than the chosen significance level of 0.05, we fail to reject the null hypothesis that groups A and B come from the same population. This means a correlation is <b>extremely unlikely</b> between state road connection and four-year high school graduation rates according to the available data.</p>
 </section>
@@ -295,12 +295,12 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
 
 <h4>Statistics &amp; Measures of Center</h4>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/EASStats-optimized.jpg" alt="EAS Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 3.1: EAS & Non-EAS Community Four-Year Graduation Rates</figcaption> </figure>
+<figure><img src="/akdata/media/EASStats-optimized.jpg" alt="EAS Community Graduation Statistics" class="center" style="width:90%;height:90%;border: 2px solid black;"> <figcaption>Figure 3.1: EAS & Non-EAS Community Four-Year Graduation Rates</figcaption> </figure>
 <div class="image-container">
-    <figure><img class="image" src="/Users/cameronwoodward/Desktop/Media/EASSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
-    <img class="image" src="/Users/cameronwoodward/Desktop/Media/EASSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 3.2 & 3.3</figcaption></figure>
+    <figure><img class="image" src="/akdata/media/EASSampleA.jpg" alt="Sample A Histogram" style="border: 2px solid black;">
+    <img class="image" src="/akdata/media/EASSampleB.jpg" alt="Sample B Histogram" style="border: 2px solid black;"> <figcaption>Figures 3.2 & 3.3</figcaption></figure>
 </div>
-<figure><img src="/Users/cameronwoodward/Desktop/Media/EASA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 3.4</figcaption></figure>
+<figure><img src="/akdata/media/EASA&B.jpg" alt="Sample A&B Histogram" class="center" style="width:65%;height:65%;border: 2px solid black;"><figcaption>Figure 3.4</figcaption></figure>
 
 <p>Noted that the two groups when categorized by EAS participation have the greatest size difference (207 vs. 1574) of our categorizations done in this section. Large differences in sample size has the risk of increasing the inequality between sample variances. This strains our assumption of equal vairance, which in turn increases the chance of a type I error.</p>
 
@@ -311,7 +311,7 @@ Alternative Hypothesis \(H_1\): The median of Population A is greater than the m
     \(H_1: A>B\).</p>
 </div>
 
-<figure><img src="/Users/cameronwoodward/Desktop/Media/EAS/EASU-Test-optimized.jpg" alt="EAS Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 3.5: Mann-Whitney U test of Graduation Rates in EAS & non-EAS Communities</figcaption> </figure> <br>
+<figure><img src="/akdata/media/EAS/EASU-Test-optimized.jpg" alt="EAS Test" class="center" style="border: 2px solid black;"> <figcaption>Figure 3.5: Mann-Whitney U test of Graduation Rates in EAS & non-EAS Communities</figcaption> </figure> <br>
 
 <p>This test&rsquo;s p-value is \(2.235\times 10^{-10}\), which is significantly small, indicating a strong likelihood that the null hypothesis \(H_0\) is false. Since \(2.235\times 10^{-10}\) is less than the chosen significance level of 0.05, we reject the null hypothesis that groups A and B come from the same population. This means a correlation is <b>likely</b> to exist between EAS communtiies and their four-year high school graduation rates according to the available data.</p>
 </section>
