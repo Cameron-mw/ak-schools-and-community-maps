@@ -29,3 +29,11 @@ services:
       - DASH_URL_BASE_PATHNAME=${COMMUNITIES_BASE_URL}
       - MAPBOX_ACCESS_TOKEN
 
+  html:
+    image: jdkelley/simple-http-server:latest
+    container_name: html
+    restart: unless-stopped
+    ports:
+      - "8052:8000"
+    volumes:
+      - ./html:/serve
