@@ -16,6 +16,7 @@ px.set_mapbox_access_token(os.getenv('MAPBOX_ACCESS_TOKEN'))
 
 # Dash App Name
 app = dash.Dash(__name__)
+app.title = "Schools"
 
 app.layout = html.Div([
     # Link CSS Files
