@@ -366,7 +366,7 @@ def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RC
         map_style = 'satellite'
         color_scale = 'Tealgrn'  # Continuous color scale
         pie_title = 'Percentage of State Population Living in Subsistence Use Communities (2021)'
-        pie_color = {'Yes': 'NavajoWhite ', 'No': 'LightSlateGray'}
+        pie_color = {'Yes': 'MediumAquaMarine ', 'No': 'LightSlateGray'}
         pie_names = selected_category  # name parameter for px.pie
         text_display = html.H2('Subsistence Use Communities'), \
             'The points on the map represent the Alaskan communities designated as subsistence use according to the table \"Subsistence Use Communities\" as of 2017. ' \
@@ -412,7 +412,7 @@ def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RC
             filtered_df = df[df[selected_category] == 'Yes'] # Only show communities that are subsistence use
         else:
             filtered_df = df[df['Community'].isin(EASsearch)]
-        # filtered_df = df[df[selected_category] == 'Yes']  # Only show communities that are essential air service
+
         map_style = 'satellite'
         color_scale = 'oryel'  # Continuous color scale
         pie_title = 'Percentage of State Population Living in Essential Air Service Communities (2018)'
@@ -464,11 +464,11 @@ def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RC
             filtered_df = dff # Only show communities that are subsistence use
         else:
             filtered_df = dff[dff['Community'].isin(ETCsearch)]
-        #filtered_df = pd.read_csv('data/ThreatenedComms.csv')  # Only show communities that are environmentally threatened
+
         map_style = 'satellite-streets'
         color_scale = 'Tealgrn'  # Continuous color scale
         pie_title = 'Percentage of State Population Living living in Environmentally Threatened Communities (2021)'
-        pie_color = {'Yes': 'NavajoWhite ', 'No': 'LightSlateGray'}
+        pie_color = {'Yes': 'MediumAquaMarine', 'No': 'LightSlateGray'}
         pie_names = selected_category  # name parameter for px.pie
         text_display = html.H2('Environmentally Threatened Communities'), \
             'The points on the map represent Alaskan communities identified as highly vulnerable to erosion, flooding and permafrost ' \
@@ -537,7 +537,7 @@ def update_figure(selected_category, search, EASsearch, SUCsearch, ETCsearch, RC
                                 zoom=3)
         fig.update_layout(mapbox_style=map_style, height=800)
 
-        chart = px.pie(data_frame=df,
+        chart = px.pie(data_frame=filtered_df,
                        values='Population_2021',
                        names=pie_names,
                        color=pie_names,
